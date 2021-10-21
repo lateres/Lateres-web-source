@@ -1,0 +1,121 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "Lateres"
+theme = "syna"
+enableGitInfo = true
+version = "0.17.3"
+
+# Google Analytics tracking
+googleAnalytics = ""
+
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[frontmatter]
+date = ["date", "lastmod"]
+lastmod = ["lastmod", ":git", "date"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+     unsafe = true
+
+[params]
+  name = "Lateres Ry"
+  description = "Lappeenrannan teekkarireserviläiset LaTeRes Ry"
+
+  [params.style]
+    #background = "secondary"
+
+  # Theme customizations
+  # Assets relative to 'static/'
+  [params.custom]
+    favicon = "favicon.ico"
+    favicon_ico_sizes = "16x16 32x32"
+    favicon_png = "favicon.png"
+    favicon_svg = "favicon.svg"
+
+  # Optional, global disable switch for fontawesome related files
+  # For custom fontawesome js files use the custom.js method
+  [params.fontawesome]
+    disabled = false
+    pro = false
+
+  [params.colors]
+    primary = "#00838F"
+    secondary = "#868e96"
+    success = "#008f54"
+    info = "#00c9dc"
+    warning = "#fdf314"
+    danger = "#dc1200"
+    light = "#f8f9fa"
+    dark = "#343a40"
+
+# main/prepend/postpend menus are displayed in nav fragment.
+# Keep an eye out for updates. These will be moved out to make navbar more
+# configurable.
+[[menu.main]]
+  url = "/"
+  name = "Etusivu"
+  weight = 10
+
+[[menu.main]]
+  url = "/yhdistys"
+  name = "Yhdistys"
+  weight = 20
+
+[[menu.main]]
+  url = "/liity"
+  name = "Liity"
+  weight = 40
+
+[[menu.main]]
+  url = "/hallitus"
+  name = "Hallitus"
+  weight = 60
+
+[[menu.main]]
+  url = "/blog"
+  name = "Blogi"
+  weight = 70
+
+[[menu.main]]
+  url = "https://holvi.com/shop/LaTeRes-ry/"
+  name = "Verkkokauppa"
+  weight = 80
+
+[[menu.footer]]
+  url = "https://www.facebook.com/latereskerho"
+  name = "Facebook"
+  weight = 10
+
+[[menu.footer]]
+  url = "https://www.instagram.com/lateres_ry/"
+  name = "Instagram"
+  weight = 30
+  
+[[menu.footer]]
+  url = "https://www.rul.fi/orup/"
+  name = "ORUP"
+  weight = 40
+
+[[menu.footer]]
+  url = "https://www.rul.fi/"
+  name = "RUL"
+  weight = 50  
+
+[[menu.footer_social]]
+  weight = 20
+  name = "facebook"
+  pre = "fab fa-facebook-f"
+  url = "https://www.facebook.com/latereskerho"
+
+[[menu.footer_social]]
+  weight = 30
+  name = "Instagram"
+  pre = "fab fa-instagram"
+  url = "https://www.instagram.com/lateres_ry/"
+
