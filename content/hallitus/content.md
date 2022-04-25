@@ -27,7 +27,7 @@ header = "Puheenjohtaja"
 
 [[rows]]
 [[rows.values]]
-header = "Jesper Saarinen"
+header = "Vilho Tanner"
 
 [[rows.values]]
 header = "Varapuheenjohtaja"
@@ -41,16 +41,44 @@ header = "Rahastonhoitaja"
 
 [[rows]]
 [[rows.values]]
-header = "Tommi Murtola"
+header = "Aleksi Koskela"
 
 [[rows.values]]
 header = "Tiedottaja"
 
 [[rows]]
 [[rows.values]]
-header = "Elias Samuli"
+header = "Väinö Marttinen"
 
 [[rows.values]]
 header = "Sihteeri"
+
+[[rows]]
+[[rows.values]]
+header = "Aarne Savolainen"
+
+[[rows.values]]
+header = "Projektivastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Riku Jäppinen"
+
+[[rows.values]]
+header = "Juhlavastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Peetu Hamara"
+
+[[rows.values]]
+header = "Tapahtumavastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Jesper Saarinen"
+
+[[rows.values]]
+header = "Ampumavastaava"
 
 +++
