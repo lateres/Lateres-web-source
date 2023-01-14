@@ -2,17 +2,15 @@
 fragment = "list"
 weight = 150
 
-title = "Lateresin blogi"
-subtitle = "Yleisiä asioita yhdistyksen toiminnasta"
-#title_align = "left" # Default is center, can be left, right or center
+title = "Sennin intti elämä"
+subtitle = "Tarinoita Senniltä kurkkusalaatissa Lateresissä edustamassa"
 
 background = "secondary"
-count = 5 # Default value is 10
-section = "blog" # Default value is current section
+count = 5 
+section = "blog" 
 #summary = false # Default value is true
-#images = false # Default value is true
 #read_more = true # Default value is empty (empty: show when content is truncated, false to never show, true to always show)
-#tiled = true # Default value is false
+tiled = true # Default value is false
 display_date = true # Default is false
 #collapsible = true # Default value is false
 
