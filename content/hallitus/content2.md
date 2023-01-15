@@ -6,10 +6,8 @@ weight = 130
 #background = "secondary"
 
 title = ""
-subtitle= ""
+subtitle= "Merchvastaava"
 #title_align = "left" # Default is center, can be left, right or center
-
-# Merchvastaava
 
 [header]
 [[header.values]]

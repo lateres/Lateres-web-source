@@ -6,10 +6,8 @@ weight = 180
 #background = "secondary"
 
 title = ""
-subtitle= ""
+subtitle= "Ampumajaos"
 #title_align = "left" # Default is center, can be left, right or center
-
-# Ampumajaos
 
 [header]
 [[header.values]]
@@ -75,4 +73,5 @@ header = "Anni Silvennoinen"
 
 [[rows.values]]
 header = "Ampumatoimihenkilöt"
+
 +++

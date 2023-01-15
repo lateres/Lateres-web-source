@@ -6,10 +6,8 @@ weight = 140
 #background = "secondary"
 
 title = ""
-subtitle= ""
+subtitle= "Tapahtumajaos"
 #title_align = "left" # Default is center, can be left, right or center
-
-# Tapahtumajaos
 
 [header]
 [[header.values]]
