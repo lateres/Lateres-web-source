@@ -1,0 +1,9 @@
+version: "3.7"
+services:  
+  server:
+    image: klakegg/hugo:0.76.5-ext-ubuntu
+    command: server --disableFastRender
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
