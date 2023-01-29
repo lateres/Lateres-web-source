@@ -17,6 +17,9 @@ Tällä viikolla terveydentila oli paljon parempi kuin edellisellä ja sen huoma
 ...
 """
 
+[asset]
+image = "image.jpg"
+
 +++
 
 Neljäs viikko
