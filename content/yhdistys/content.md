@@ -18,3 +18,7 @@ title = "Lateres yhdistyksenä"
 ## Bunun sijainti
 
 ![Bunu](/images/bunu.jpg)
+
+### Kerhoiltojen lisäksi järjestetään säännöllisesti viikkolenkkejä sekä ammuntaa.
+
+![Ammunta](/images/ammunta.jpg)

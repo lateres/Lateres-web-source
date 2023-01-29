@@ -13,6 +13,8 @@ Jäseneksi haetaan täyttämällä Suomen Reserviupseeriliiton (RUL) lomake osoi
 
 Jäsenmaksu on 20e ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta muiden ORUP:in alaisten järjestön kautta RUL:in jäseniä sotilasarvosta huolimatta. Lisätietoa ORUP:sta ja sen toiminnasta: https://www.rul.fi/orup/
 
-Tiedotamme jäseniä sähköpostilistalla sekä tietysti Facebookissa:
+Tiedotamme jäseniä pääasiassa telegramissa, jonne liittymislinkin saat kun olet liittynyt jäseneksi.
 
-https://www.facebook.com/latereskerho
+Seuraathan toimintaamme myös Instagramissa!
+
+https://www.instagram.com/lateres_ry/
