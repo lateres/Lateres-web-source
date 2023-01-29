@@ -2,8 +2,8 @@
 fragment = "list"
 weight = 150
 
-title = "Sennin intti elämä"
-subtitle = "Tarinoita Senniltä kurkkusalaatissa Lateresissä edustamassa"
+title = "Intti teekkarin silmin - Sennin inttiblogi"
+subtitle = "Kuulumisia Senniltä intin vihreissä"
 
 background = "secondary"
 count = 5 
