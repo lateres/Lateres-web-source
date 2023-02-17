@@ -33,4 +33,4 @@ jobs:
           publish_branch: main
           publish_dir: ./public
           cname: lateres.fi
-          allow_empty_commit: true
+

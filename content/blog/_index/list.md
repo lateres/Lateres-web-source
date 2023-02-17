@@ -6,10 +6,10 @@ title = "Intti teekkarin silmin - Sennin inttiblogi"
 subtitle = "Kuulumisia Senniltä intin vihreissä"
 
 background = "secondary"
-count = 5 
+count = 10
 section = "blog" 
 #summary = false # Default value is true
-#read_more = true # Default value is empty (empty: show when content is truncated, false to never show, true to always show)
+read_more = true # Default value is empty (empty: show when content is truncated, false to never show, true to always show)
 tiled = true # Default value is false
 display_date = true # Default is false
 #collapsible = true # Default value is false

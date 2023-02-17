@@ -14,7 +14,7 @@ display_date = true
 summary = """
 Moro!
 Mie oon Senni, 24-vuotias energiatekniikan opiskelija LUTissa. Lappeenrantaan muutin opiskeluiden perässä vuonna 2018 Mäntyharjulta. Opiskeluaikoinani olen ollut aktiivisesti mukana järjestötoiminnassa ja olen muun muassa ollut kiltani Armatuurin puheenjohtaja sekä kaksi kautta ylioppilaskunta LTKY:n hallituksessa. Nyt tammikuussa aloitin varusmiespalveluksen Karjalan Prikaatissa Vekaranjärvellä. Opintoni ovat loppusuoralla, puuttuu muutama kurssi ja diplomityö jotka aioin suorittaa kotiuduttani.
-...
+
 """
 
 [asset]

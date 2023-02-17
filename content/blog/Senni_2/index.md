@@ -13,7 +13,7 @@ display_date = true
 
 summary = """
 Kolmas palvelusviikko sujui kelin osalta märissä tunnelmissa. Ulkopalveluksissa kylmyys ei niinkään painanut, mutta +2 celsiusastetta yhdistettynä lumisateeseen kasteli varusteet melko hyvin. Vaihtovarusteiden voimin tästäkin selvittiin. Vielä emme päässeet yöpymään maastossa, joten sekin on vielä edessä.
-...
+
 """
 
 +++

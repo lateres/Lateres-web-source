@@ -15,7 +15,7 @@ summary = """
 Kohti valaa
 
 Toinen kiinnioloviikonloppu selätetty ja viimeiset hetket ennen valaa alkaa olla käsillä.
-...
+
 """
 
 [asset]

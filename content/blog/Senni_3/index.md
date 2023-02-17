@@ -14,7 +14,7 @@ display_date = true
 summary = """
 Neljäs viikko
 Tällä viikolla terveydentila oli paljon parempi kuin edellisellä ja sen huomasi jaksamisessa heti. Jaksaminen tulikin tarpeeseen, sillä olimme ensimmäisen yömme metsässä. Aloitus oli kuitenkin suhteellisen kevyt, marssi harjoitukseen oli noin 6 kilometriä ja palasimme kasarmille heti yhden yön jälkeen.
-...
+
 """
 
 [asset]

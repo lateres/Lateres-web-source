@@ -8,14 +8,14 @@ title = "TJ 300"
 #subtitle = ""
 title_align = "left"
 
-date = "2023-02-18"
+date = "2023-02-17"
 display_date = true
 
 summary = """
 TJ 300
 
 Päästäänkin jo kakkosella alkaviin päiviin kohta.
-...
+
 """
 
 [asset]
