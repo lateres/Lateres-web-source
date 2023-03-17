@@ -5,20 +5,27 @@ date = "2017-10-05"
 weight = 100
 #background = ""
 
-title = "Lateres yhdistyksenä"
+title = ""
 #subtitle = ""
 +++
+# Lateres yhdistyksenä
+---
+### ORUP - Opiskelijain Reserviupseeripiiri ry
 
-## Lappeenrannan teekkarireserviläiset on Opiskelijain Reservinupseeripiirin (ORUP) ja sitä kautta Suomen Reserviupseeriliiton (RUL) alainen yhdistys, jonka tarkoituksena on ylläpitää isänmaallista henkeä ja sotilastaitoja Lappeen Rantalaisten opiskelijoiden keskuudessa.
+Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (RUL) kahdestakymmenestä piiristä. Piiri toimii valtakunnallisesti ja sen jäsenyhdistykset käsittävät maamme 10 korkeakoulupaikkakuntaa. Piiri poikkeaa muista liiton piireistä juuri valtakunnallisuutensa vuoksi, ja siinä, että henkilö voidaan hyväksyä jäseneksi sotilasarvosta riippumatta. Olit sitten upseeri tai et, olet tervetullut toimintaamme. Lisätietoja: https://www.rul.fi/orup/ 
 
-### Kerhon tapahtumiin ovat tervetulleita kaikki opiskelijat oppilaitokseen, ikään, kansalaisuuteen, sukupuoleen, rotuun, asepalvelushistoriaan tai epäseksuaaliseen suuntautumiseen katsomatta.
+---
 
-### Kerho järjestää säännöllisesti kerhoiltoja jatkosodan aikaisessa konekivääribunkkerissa, jota myös Punkkeriksi kutsutaan. Kerho on myös käynyt mahdollisuuksien mukaan kursiolla jollain sotaisilla kohteilla.
+### LaTeRes - Lappeenrannan teekkarireseriväiset ry 
 
-## Bunun sijainti
+Lappeenrannan teekkarireserviläiset ry on ORUP:n ja sitä kautta Suomen Reserviupseeriliiton (RUL) alainen yhdistys, jonka tarkoituksena on ylläpitää isänmaallista henkeä ja sotilastaitoja Lappeen Rantalaisten opiskelijoiden keskuudessa.
 
-![Bunu](/images/bunu.jpg)
+Lateresin tapahtumiin ovat tervetulleita kaikki opiskelijat oppilaitokseen, ikään, kansalaisuuteen, sukupuoleen, rotuun, asepalvelushistoriaan tai epäseksuaaliseen suuntautumiseen katsomatta.
 
-### Kerhoiltojen lisäksi järjestetään säännöllisesti viikkolenkkejä sekä ammuntaa.
+Lateres säännölliseen tapahtuma-arsenaaliin kuuluu viikottaiset ammunnat, viikkolenkit, painivuoro monarissa sekä joka toinen viikko kerhoilta jatkosodan aikaisessa konekivääribunkkerissa.
 
-![Ammunta](/images/ammunta.jpg)
+---
+
+### Bunkkerin sijainti
+
+![Bunu](/images/bununSijainti.jpg)

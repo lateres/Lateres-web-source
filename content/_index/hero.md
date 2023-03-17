@@ -10,11 +10,11 @@ title = "Lateres Ry"
 subtitle = "Lateres Ry"
 
 [header]
-  image = "header.jpg"
+  image = "paikkaus.jpg"
 
 [asset]
   image = "logo.svg"
   width = "350px" # optional - will default to image width
-  height = "350px" # optional - will default to image height
+  height = "200px" # optional - will default to image height
   
 +++

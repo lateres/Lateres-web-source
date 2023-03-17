@@ -88,15 +88,15 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 80
 
 [[menu.footer]]
-  url = "https://www.facebook.com/latereskerho"
-  name = "Facebook"
-  weight = 10
-
-[[menu.footer]]
   url = "https://www.instagram.com/lateres_ry/"
   name = "Instagram"
-  weight = 30
+  weight = 10
   
+[[menu.footer]]
+  url = "https://www.facebook.com/latereskerho"
+  name = "Facebook"
+  weight = 30
+
 [[menu.footer]]
   url = "https://www.rul.fi/orup/"
   name = "ORUP"

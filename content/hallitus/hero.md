@@ -10,7 +10,7 @@ title = "Lateres Ry"
 subtitle = "Lateres Ry"
 
 [header]
-  image = "hallitus.jpg"
+  image = "halva1.JPG"
 
 [asset]
   image = "logo.svg"

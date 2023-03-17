@@ -7,4 +7,12 @@ weight = 1000
 background = "light"
 +++
 
-## Me Lappeenrannan teekkarireserviläisissä pidämme opiskelijahaalarit ruudinkäryisinä ja valmiustasot korkealla! Jäsenissämme löytyy niin aktiivireserviläisiä kuin harrastuksensa hieman rennommin ottaviakin, sillä yhdistyksessämme on tilaa jokaiselle reserviläisyydestä kiinnostuneelle. Meillä toiminta tapahtuu kovalla yhteishengellä sotilasarvoon tai palvelustaustaan katsomatta ja aktiviteettiskaala ulottuu rennoista säännöllisistä kerhoilloista kansainvälisiin vapaaehtoisiin kertausharjoituksiin. Jos taas et halua uusia ystäviä, et halua kokea yhteisöllisyyden tunnetta, etkä halua seikkailla Skinnarilan bunkkereissa, kannattaa olla harkitsematta kerhon toimintaan liittymistä. Jos kuitenkin edellämainittu touhu kiinnostaa, rohkeasti meidän väkeen yhteyttä ja toimintaan mukaan! Vuodesta 1988 valmiuksia ylläpitämässä, LaTeRes.
+## Tervetuloa Lappeenrannan teekkarireserviläisten kotisivuille!
+
+---
+
+#### Me täällä Lappeen Rannoilla pidämme opiskelijahaalarit ruudinkäryisinä ja valmiustasot korkealla! Jäsenissämme löytyy niin aktiivireserviläisiä kuin harrastuksensa hieman rennommin ottaviakin. 
+
+#### Meillä toiminta tapahtuu kovalla yhteishengellä sotilasarvoon tai palvelustaustaan katsomatta. Aktiviteettiskaala ulottuu rennoista säännöllisistä kerhoilloista juoksulenkkien ja ammuntojen kautta aina vapaaehtoisiin kertausharjoituksiin. 
+
+#### Jos sinulta löytyy kiinnostusta reserviäistoimintaan opiskelujen ohella, tutustu 'Yhdistys' ja 'Liity' välilehtiin ja ota meidän Instagram seurantaan!  https://www.instagram.com/lateres_ry/

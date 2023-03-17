@@ -5,7 +5,7 @@ date = "2016-09-07"
 weight = 1200
 #background = ""
 
-menu_title = "Linkejä"
+menu_title = "Linkkejä"
 
 [asset]
   title = "Logo Title"

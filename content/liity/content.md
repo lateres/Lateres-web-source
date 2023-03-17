@@ -5,16 +5,28 @@ date = "2017-10-05"
 weight = 100
 #background = ""
 
-title = "Lateressiin liittyminen"
+title = ""
 #subtitle = ""
 +++
 
-Jäseneksi haetaan täyttämällä Suomen Reserviupseeriliiton (RUL) lomake osoitteessa https://www.rul.fi/jasenhakemus/ **Muista valita kerhoksi Lappeenrannan Teekkarireserviläiset LATERES RY**
+### JÄSENEKSI
 
-Jäsenmaksu on 20e ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta muiden ORUP:in alaisten järjestön kautta RUL:in jäseniä sotilasarvosta huolimatta. Lisätietoa ORUP:sta ja sen toiminnasta: https://www.rul.fi/orup/
+Jäseneksi haetaan täyttämällä Suomen Reserviupseeriliiton (RUL) lomake osoitteessa https://www.rul.fi/jasenhakemus/ **Muista valita kerhoksi Lappeenrannan Teekkarireserviläiset LATERES RY!** Lateresin jäseneksi voi liittyä sotilasarvosta tai suoritetusta asevelvollisuudesta riippumatta.
+
+Jäsenmaksu on 20 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta muiden ORUP:in alaisten järjestön kautta RUL:in jäseniä sotilasarvosta huolimatta. Lisätietoa ORUP:sta ja sen toiminnasta: https://www.rul.fi/orup/
+
+---
+
+### RUL PLUS
+
+Jos sinua kiinnostaa osallistua kerhon ampumatoimintaan suosittelemme erittäin vahvasti tutustumaan ja hankkimaan Reserviupseeriliiton tarjoaman RUL PLUS jäsenyyden. RUL PLUS jäsenyys maksaa 25 € tavallisen jäsenmaksun päälle. RUL PLUS jäsenyys sisältää tapaturma- ja vastuuvakuutuksen ammuntaa harrastavalle jäsenelle. 
+
+LaTeRes järjestää viikottain ammuntoja ja joka toinen viikko järjestämme toiminnallista ammuntaa, johon vaadimme osallistujilta RUL PLUS jäsenyyden (tai muun vastaavan ampumaurheilun kattavan vakuutuksen). Lisätietoja RUL PLUS:sta osoitteessa https://www.rul.fi/jasenille/rul-plus/
+
+---
+
+### TIEDOTUSKANAVAT
 
 Tiedotamme jäseniä pääasiassa telegramissa, jonne liittymislinkin saat kun olet liittynyt jäseneksi.
 
-Seuraathan toimintaamme myös Instagramissa!
-
-https://www.instagram.com/lateres_ry/
+LaTeResin toimintaa voi seurata parhaiten instagramista: https://www.instagram.com/lateres_ry/
