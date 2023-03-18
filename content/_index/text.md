@@ -11,8 +11,10 @@ background = "light"
 
 ---
 
-#### Me täällä Lappeen Rannoilla pidämme opiskelijahaalarit ruudinkäryisinä ja valmiustasot korkealla! Jäsenissämme löytyy niin aktiivireserviläisiä kuin harrastuksensa hieman rennommin ottaviakin. 
+Me täällä Lappeen Rannoilla pidämme opiskelijahaalarit ruudinkäryisinä ja valmiustasot korkealla! Jäsenissämme löytyy niin aktiivireserviläisiä kuin harrastuksensa hieman rennommin ottaviakin. 
 
-#### Meillä toiminta tapahtuu kovalla yhteishengellä sotilasarvoon tai palvelustaustaan katsomatta. Aktiviteettiskaala ulottuu rennoista säännöllisistä kerhoilloista juoksulenkkien ja ammuntojen kautta aina vapaaehtoisiin kertausharjoituksiin. 
+Meillä toiminta tapahtuu kovalla yhteishengellä sotilasarvoon tai palvelustaustaan katsomatta. Aktiviteettiskaala ulottuu rennoista säännöllisistä kerhoilloista juoksulenkkien ja ammuntojen kautta aina vapaaehtoisiin kertausharjoituksiin. 
 
-#### Jos sinulta löytyy kiinnostusta reserviäistoimintaan opiskelujen ohella, tutustu 'Yhdistys' ja 'Liity' välilehtiin ja ota meidän Instagram seurantaan!  https://www.instagram.com/lateres_ry/
+Jos sinulta löytyy kiinnostusta reserviäistoimintaan opiskelujen ohella tai vaikka ei mukamas löydy, tutustu '[Yhdistys](/yhdistys)' ja '[Liity](/liity)' välilehtiin ja ota meidän [Instagram](https://www.instagram.com/lateres_ry/) seurantaan!
+
+---

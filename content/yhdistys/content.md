@@ -12,7 +12,7 @@ title = ""
 ---
 ### ORUP - Opiskelijain Reserviupseeripiiri ry
 
-Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (RUL) kahdestakymmenestä piiristä. Piiri toimii valtakunnallisesti ja sen jäsenyhdistykset käsittävät maamme 10 korkeakoulupaikkakuntaa. Piiri poikkeaa muista liiton piireistä juuri valtakunnallisuutensa vuoksi, ja siinä, että henkilö voidaan hyväksyä jäseneksi sotilasarvosta riippumatta. Olit sitten upseeri tai et, olet tervetullut toimintaamme. Lisätietoja: https://www.rul.fi/orup/ 
+Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (RUL) kahdestakymmenestä piiristä. Piiri toimii valtakunnallisesti ja sen jäsenyhdistykset käsittävät maamme 10 korkeakoulupaikkakuntaa. Piiri poikkeaa muista liiton piireistä juuri valtakunnallisuutensa vuoksi, ja siinä, että henkilö voidaan hyväksyä jäseneksi sotilasarvosta riippumatta. Olit sitten upseeri tai et, olet tervetullut toimintaamme. Lisätietoja [tästä](https://www.rul.fi/orup/). 
 
 ---
 
@@ -23,6 +23,8 @@ Lappeenrannan teekkarireserviläiset ry on ORUP:n ja sitä kautta Suomen Reservi
 Lateresin tapahtumiin ovat tervetulleita kaikki opiskelijat oppilaitokseen, ikään, kansalaisuuteen, sukupuoleen, rotuun, asepalvelushistoriaan tai epäseksuaaliseen suuntautumiseen katsomatta.
 
 Lateres säännölliseen tapahtuma-arsenaaliin kuuluu viikottaiset ammunnat, viikkolenkit, painivuoro monarissa sekä joka toinen viikko kerhoilta jatkosodan aikaisessa konekivääribunkkerissa.
+
+Katso kuvia ja videoita meidän toiminnasta  [Instagramissa](https://www.instagram.com/lateres_ry/)!
 
 ---
 
