@@ -16,7 +16,7 @@ Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (
 
 ---
 
-### LaTeRes - Lappeenrannan teekkarireseriväiset ry 
+### LaTeRes - Lappeenrannan teekkarireserviläiset ry 
 
 Lappeenrannan teekkarireserviläiset ry on ORUP:n ja sitä kautta Suomen Reserviupseeriliiton (RUL) alainen yhdistys, jonka tarkoituksena on ylläpitää isänmaallista henkeä ja sotilastaitoja Lappeen Rantalaisten opiskelijoiden keskuudessa.
 
