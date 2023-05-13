@@ -12,7 +12,7 @@ title = ""
 ---
 ### ORUP - Opiskelijain Reserviupseeripiiri ry
 
-Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (RUL) kahdestakymmenestä piiristä. Piiri toimii valtakunnallisesti ja sen jäsenyhdistykset käsittävät maamme 10 korkeakoulupaikkakuntaa. Piiri poikkeaa muista liiton piireistä juuri valtakunnallisuutensa vuoksi, ja siinä, että henkilö voidaan hyväksyä jäseneksi sotilasarvosta riippumatta. Olit sitten upseeri tai et, olet tervetullut toimintaamme. Lisätietoja [tästä](https://www.rul.fi/orup/). 
+Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (RUL) kahdestakymmenestä piiristä. Piiri toimii valtakunnallisesti ja sen jäsenyhdistykset käsittävät maamme 10 korkeakoulupaikkakuntaa. Piiri poikkeaa muista liiton piireistä juuri valtakunnallisuutensa vuoksi, ja siinä, että henkilö voidaan hyväksyä jäseneksi sotilasarvosta riippumatta. Olit sitten upseeri, aliupseeri, miehistöä tai et ole käynyt asepalvelusta ollenkaan, olet tervetullut toimintaamme mukaan. Lisätietoja [tästä](https://www.rul.fi/orup/). 
 
 ---
 

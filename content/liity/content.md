@@ -13,7 +13,7 @@ title = ""
 
 Lateresin jäseneksi voi liittyä sotilasarvosta tai suoritetusta asevelvollisuudesta riippumatta vaikka kerho toimiikin reserviupseeriliiton alla. Jäseneksi liitytään täyttämällä Suomen Reserviupseeriliiton (RUL) lomake  [**tästä**](https://www.rul.fi/jasenhakemus/). **Muista valita kerhoksi Lappeenrannan Teekkarireserviläiset LATERES RY!**
 
-Jäsenmaksu on 20 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta muiden ORUP:in alaisten järjestön kautta RUL:in jäseniä ja saavat RUL:n jäsenedut sotilasarvosta huolimatta. Lisätietoa [ORUP:sta](https://www.rul.fi/orup/)
+Jäsenmaksu on 20 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta RUL:in jäseniä ja saavat RUL:n jäsenedut sotilasarvosta huolimatta. Lisätietoa [ORUP:sta](https://www.rul.fi/orup/)
 
 ---
 
