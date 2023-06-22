@@ -10,7 +10,7 @@ title = "Lateres Ry"
 subtitle = "Lateres Ry"
 
 [header]
-  image = "paikkaus.jpg"
+  image = "gang.jpg"
 
 [asset]
   image = "logo.svg"
