@@ -30,6 +30,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/toiminta
+  label: Toiminta
+  create: all
+  match: "**/*"
+- type: directory
   path: content/_index
   label: Index
   create: all

@@ -2,10 +2,10 @@
 fragment = "list"
 weight = 150
 
-title = "Intti teekkarin silmin - Sennin inttiblogi"
-subtitle = "Kuulumisia Senniltä intin vihreissä"
+title = "Lateres Blogi"
+subtitle = "Sennin inttiblogi, Varustearvosteluja, Kursiotarinoita ja kaikkea siitä väliltä."
 
-background = "secondary"
+background = "light"
 count = 20
 section = "blog" 
 #summary = false # Default value is true

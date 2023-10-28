@@ -68,6 +68,11 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 20
 
 [[menu.main]]
+  url = "/toiminta"
+  name = "Toiminta"
+  weight = 25
+
+[[menu.main]]
   url = "/liity"
   name = "Liity"
   weight = 40
@@ -79,18 +84,18 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.main]]
   url = "/blog"
-  name = "Blog"
+  name = "Blogi"
   weight = 70
 
 [[menu.main]]
   url = "/legio-externa"
   name = "Legio Externa"
-  weight = 80
+  weight = 90
 
 [[menu.main]]
   url = "https://holvi.com/shop/LaTeRes-ry/"
   name = "Verkkokauppa"
-  weight = 80
+  weight = 100
 
 [[menu.footer]]
   url = "https://www.instagram.com/lateres_ry/"

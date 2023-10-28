@@ -15,6 +15,6 @@ subtitle = "Lateres Ry"
 [asset]
   image = "logo.svg"
   #width = "350px" # optional - will default to image width
-  height = "200px" # optional - will default to image height
+  height = "150px" # optional - will default to image height
   
 +++
