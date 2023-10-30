@@ -8,7 +8,7 @@ weight = 100
 title = ""
 #subtitle = ""
 +++
-# Lateres yhdistyksenä
+## LATERES YHDISTYKSENÄ
 ---
 ### ORUP - Opiskelijain Reserviupseeripiiri ry
 

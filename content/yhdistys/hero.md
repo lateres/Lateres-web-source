@@ -6,8 +6,8 @@ weight = 50
 background = "dark" # can influence the text color
 #particles = true
 
-title = "Lateres Ry"
-subtitle = "Lateres Ry"
+title = "LaTeRes ry"
+subtitle = "LaTeRes ry"
 
 [header]
   image = "taulut.jpg"
@@ -15,6 +15,6 @@ subtitle = "Lateres Ry"
 [asset]
   image = "logo.svg"
   #width = "350px" # optional - will default to image width
-  height = "150px" # optional - will default to image height
+  height = "200px" # optional - will default to image height
   
 +++

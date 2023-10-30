@@ -10,11 +10,11 @@ title = "LATERES RY"
 subtitle = "LaTeRes ry"
 
 [header]
-  image = "paikkaus.jpg"
+  image = "immolaLevee.jpg"
 
 [asset]
   image = "logo.svg"
   width = "350px" # optional - will default to image width
-  height = "150px" # optional - will default to image height
+  height = "200px" # optional - will default to image height
   
 +++

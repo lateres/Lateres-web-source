@@ -6,15 +6,15 @@ weight = 50
 background = "dark" # can influence the text color
 #particles = true
 
-title = "Lateres Ry"
-subtitle = "Lateres Ry"
+title = "Legio Externa ry"
+subtitle = "Legio Externa ry"
 
 [header]
-  image = "gang.jpg"
+  image = "paikkaus.jpg"
 
 [asset]
-  image = "logo.svg"
+  image = "legioona.svg"
   #width = "350px" # optional - will default to image width
-  height = "150px" # optional - will default to image height
+  height = "200px" # optional - will default to image height
   
 +++
