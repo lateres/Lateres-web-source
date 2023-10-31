@@ -23,4 +23,4 @@ image = "animeilta.png"
 
 Taistelijoiden moraalin ylläpitämiseksi tapahtumiin kuuluu myös Animeillat, yhteistyössä LaKun kanssa. Näissä iltamissa nautitaan ja arvostetaan parasta tarjontaa mitä Japanin onnellisesta saarivaltiosta löytyy, kriitikoiden rakastimista klassikoista mitä oudoimpiin kulttituotantoihin. Tapahtumassa tarjolla myös popkornia ja virvokkeita oikean elokuvaelämyksen saavuttamiseksi. Älä siis emmi ja liity joukkoon ihailemaan kaunista piirrosjälkeä ja kutkuttavia tarnoita!
 
-Tapahtuma alkoholiton, K-18, Japaninkielinen ääniraita (dubbi katsojat älkää vaivautuko), tekstitys joko suomeksi tai englanniksi saatavuuden mukaan.
+Tapahtumassa Japaninkielinen ääniraita (dubbi katsojat älkää vaivautuko), tekstitys joko suomeksi tai englanniksi saatavuuden mukaan.
