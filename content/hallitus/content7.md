@@ -23,7 +23,7 @@ hide_on_mobile = false
 header = "Vilho Tanner"
 
 [[rows.values]]
-header = "Asevastaava"
+header = "Ampumatoimintavastaava"
 
 [[rows]]
 [[rows.values]]
