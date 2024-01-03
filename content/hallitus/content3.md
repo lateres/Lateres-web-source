@@ -2,7 +2,7 @@
 fragment = "table"
 #disabled = false
 date = "2017-10-10"
-weight = 140
+weight = 130
 #background = "secondary"
 
 title = ""
@@ -20,16 +20,64 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Lassi Tuominen"
+header = "Eeli Lampinen"
 
 [[rows.values]]
 header = "Kenttäkelpoisuusvastaava"
 
 [[rows]]
 [[rows.values]]
-header = "Kasper Saarinen"
+header = "Vilma Lappalainen"
 
 [[rows.values]]
-header = "Excu vastaava"
+header = "Tapahtumatoimihenkilö"
 
+[[rows]]
+[[rows.values]]
+header = "Joel Kae"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Lasse Lukkarinen"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Jenni Arvola"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Robert Lönnfors"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Leevi Westerholm"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Roni-Ahto Järvelä"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Sami Oinonen"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
 +++

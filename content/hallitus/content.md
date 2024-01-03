@@ -2,14 +2,12 @@
 fragment = "table"
 #disabled = false
 date = "2017-10-10"
-weight = 110
+weight = 100
 #background = "secondary"
 
-title = "Vuoden 2023 hallitus"
+title = "Vuoden 2024 Hallitus"
 subtitle= "Yhdeydenotto sähköpostilla lateresltky at gmail.com"
 #title_align = "left" # Default is center, can be left, right or center
-
-# Hallitus
 
 [header]
 [[header.values]]
@@ -22,28 +20,28 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Kasper Saarinen"
+header = "Vilho Tanner"
 
 [[rows.values]]
 header = "Puheenjohtaja"
 
 [[rows]]
 [[rows.values]]
-header = "Manu Heiskanen"
+header = "Henri Ilves"
 
 [[rows.values]]
 header = "Varapuheenjohtaja"
 
 [[rows]]
 [[rows.values]]
-header = "Sasha Vorobjev"
+header = "Santeri Nikulainen"
 
 [[rows.values]]
 header = "Rahastonhoitaja"
 
 [[rows]]
 [[rows.values]]
-header = "Väinö Marttinen"
+header = "Karri Keskimäki"
 
 [[rows.values]]
 header = "Sihteeri"
@@ -53,35 +51,35 @@ header = "Sihteeri"
 header = "Lauri Westerholm"
 
 [[rows.values]]
-header = "Tapahtumaupseeri"
+header = "Tapahtumavastaava"
 
 [[rows]]
 [[rows.values]]
 header = "Robert Hämäläinen"
 
 [[rows.values]]
-header = "Perinneupseeri"
+header = "Perinnevastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Manu Heiskanen"
+
+[[rows.values]]
+header = "Viestintävastaava"
 
 [[rows]]
 [[rows.values]]
 header = "Roope Myller"
 
 [[rows.values]]
-header = "Viestintäupseeri"
+header = "Taisteluvastaava"
 
 [[rows]]
 [[rows.values]]
-header = "Vilho Tanner"
+header = "Kasper Saarinen"
 
 [[rows.values]]
-header = "Taisteluupseeri"
-
-[[rows]]
-[[rows.values]]
-header = "Jesper Saarinen"
-
-[[rows.values]]
-header = "Yhteysupseeri"
+header = "ORUP-vastaava"
 
 
 +++

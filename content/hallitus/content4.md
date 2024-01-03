@@ -2,12 +2,13 @@
 fragment = "table"
 #disabled = false
 date = "2017-10-10"
-weight = 150
+weight = 140
 #background = "secondary"
 
 title = ""
-subtitle= "Perinnejaos"
+subtitle= "Viestintäjaos"
 #title_align = "left" # Default is center, can be left, right or center
+
 
 [header]
 [[header.values]]
@@ -20,16 +21,38 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Ville Ketola"
+header = "Manu Heiskanen"
 
 [[rows.values]]
-header = "Vuosijuhlatoimikunta"
+header = "Graaffikko/Kuvaaja"
 
 [[rows]]
 [[rows.values]]
-header = "Robert Hämäläinen"
+header = "Roope Myller"
 
 [[rows.values]]
-header = "Vuosijuhlatoimikunta"
+header = "Kuvaaja"
+
+[[rows]]
+[[rows.values]]
+header = "Francois Pakkanen"
+
+[[rows.values]]
+header = "Videoeditointi"
+
+[[rows]]
+[[rows.values]]
+header = "Elias Samuli"
+
+[[rows.values]]
+header = "www-vastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Roope Myller"
+
+[[rows.values]]
+header = "www-kisälli"
+
 
 +++

@@ -2,12 +2,13 @@
 fragment = "table"
 #disabled = false
 date = "2017-10-10"
-weight = 180
+weight = 200
 #background = "secondary"
 
 title = ""
-subtitle= "Ampumajaos"
+subtitle= "Bunkkeri"
 #title_align = "left" # Default is center, can be left, right or center
+
 
 [header]
 [[header.values]]
@@ -20,58 +21,16 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Vilho Tanner"
+header = "Lauri Kivinen"
 
 [[rows.values]]
-header = "Ampumatoimintavastaava"
-
-[[rows]]
-[[rows.values]]
-header = "Väinö Marttinen"
-
-[[rows.values]]
-header = "Ampuma-asekouluttaja"
+header = "Vääpeli"
 
 [[rows]]
 [[rows.values]]
-header = "Vilho Tanner"
+header = "Peetu Hamara"
 
 [[rows.values]]
-header = "Ampumatoimihenkilöt"
-
-[[rows]]
-[[rows.values]]
-header = "Väinö Marttinen"
-
-[[rows.values]]
-header = "Ampumatoimihenkilöt"
-
-[[rows]]
-[[rows.values]]
-header = "Sasha Vorobjev"
-
-[[rows.values]]
-header = "Ampumatoimihenkilöt"
-
-[[rows]]
-[[rows.values]]
-header = "Robert Hämäläinen"
-
-[[rows.values]]
-header = "Ampumatoimihenkilöt"
-
-[[rows]]
-[[rows.values]]
-header = "Jesper Saarinen"
-
-[[rows.values]]
-header = "Ampumatoimihenkilöt"
-
-[[rows]]
-[[rows.values]]
-header = "Anni Silvennoinen"
-
-[[rows.values]]
-header = "Ampumatoimihenkilöt"
+header = "Päivystäjä"
 
 +++
