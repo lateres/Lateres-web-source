@@ -62,13 +62,6 @@ header = "Ampumatoimihenkilö"
 
 [[rows]]
 [[rows.values]]
-header = "Anni Silvennoinen"
-
-[[rows.values]]
-header = "Ampumatoimihenkilö"
-
-[[rows]]
-[[rows.values]]
 header = "Kasper Saarinen"
 
 [[rows.values]]
@@ -77,6 +70,13 @@ header = "Ampumatoimihenkilö"
 [[rows]]
 [[rows.values]]
 header = "Tuomas Turpeinen"
+
+[[rows.values]]
+header = "Ampumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Niilo Hendolin"
 
 [[rows.values]]
 header = "Ampumatoimihenkilö"

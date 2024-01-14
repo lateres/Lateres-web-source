@@ -74,10 +74,4 @@ header = "Roni-Ahto Järvelä"
 [[rows.values]]
 header = "Tapahtumatoimihenkilö"
 
-[[rows]]
-[[rows.values]]
-header = "Sami Oinonen"
-
-[[rows.values]]
-header = "Tapahtumatoimihenkilö"
 +++

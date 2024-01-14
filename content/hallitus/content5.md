@@ -20,13 +20,6 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Anni Silvennoinen"
-
-[[rows.values]]
-header = "Yrityssuhdehenkilö"
-
-[[rows]]
-[[rows.values]]
 header = "Jesper Saarinen"
 
 [[rows.values]]

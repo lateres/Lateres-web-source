@@ -31,7 +31,7 @@ header = "Graaffikko/Kuvaaja"
 header = "Roope Myller"
 
 [[rows.values]]
-header = "Kuvaaja"
+header = "Kuvaaja/www"
 
 [[rows]]
 [[rows.values]]
@@ -46,13 +46,6 @@ header = "Elias Samuli"
 
 [[rows.values]]
 header = "www-vastaava"
-
-[[rows]]
-[[rows.values]]
-header = "Roope Myller"
-
-[[rows.values]]
-header = "www-kisälli"
 
 
 +++
