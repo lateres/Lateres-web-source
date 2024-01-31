@@ -1,6 +1,6 @@
 +++
 fragment = "embed"
-disabled = false
+disabled = true
 date = "2017-10-07"
 weight = 1200
 
