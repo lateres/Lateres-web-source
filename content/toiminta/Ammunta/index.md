@@ -2,7 +2,7 @@
 fragment = "content"
 weight = 100
 #background = ""
-categories = ["Lateres", "Ammunta", "Toiminta", "2023"]
+categories = ["Lateres", "Ammunta", "Toiminta"]
 
 title = "Ammunta"
 #subtitle = ""
@@ -26,3 +26,4 @@ LaTeRes järjestää viikoittain ammuntoja sekä uusille että kokeneemmille amp
 Ammunnat järjestetään pääasiassa Muukossa, mutta toiminnallisia ammuntoja välillä myös Raja- ja Merivartiokoulun ampumaradoilla. Yliopistolta ajaa autolla Muukkoon n. 20min. Ammunnan harrastaminen on LaTeRes:in jäsenille hyvin opiskelijaystävällistä, sillä ammunnoissa ei tarvitse maksaa kuin ammutut patruunat sekä 1 € 'ratamaksu'. Ammuntoihin kuljetaan jäsenten kesken järjestetyillä kimppakyydeillä.
 
 Joten oletpa sitten kokenut ampuja tai ammunnasta kiinnostunut aloittelija niin laita infokanava seurantaan ja ilmoittaudu rohkeasti mukaan seuraaviin ammuntoihin!
+

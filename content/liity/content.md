@@ -9,7 +9,7 @@ title = ""
 #subtitle = ""
 +++
 
-### JÄSENEKSI
+#### JÄSENEKSI
 
 Lateresin jäseneksi voi liittyä sotilasarvosta, suoritetusta asevelvollisuudesta tai haalareiden väristä riippumatta. Vaikka nimessä lukee Teekkari niin toiminnassamme on mukana myös muita opiskelijoita. Jäseneksi liitytään täyttämällä Suomen Reserviupseeriliiton (RUL) lomake  [**tästä**](https://www.rul.fi/jasenhakemus/). **Muista valita yhdistykseksi Lappeenrannan Teekkarireserviläiset LATERES RY!**
 
@@ -17,7 +17,7 @@ Jäsenmaksu on 21,5 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskel
 
 ---
 
-### RUL PLUS
+#### RUL PLUS
 
 Jos sinua kiinnostaa osallistua LaTeResin ampumatoimintaan, suosittelemme erittäin vahvasti tutustumaan ja hankkimaan Reserviupseeriliiton tarjoaman RUL PLUS jäsenyyden. RUL PLUS jäsenyys maksaa 25 € tavallisen jäsenmaksun päälle. RUL PLUS jäsenyys sisältää tapaturma- ja vastuuvakuutuksen ammuntaa harrastavalle jäsenelle. 
 
@@ -25,10 +25,9 @@ LaTeRes järjestää viikottain ammuntoja ja joka toinen viikko järjestämme to
 
 ---
 
-### TIEDOTUSKANAVAT
+#### TIEDOTUSKANAVAT
 
 Tiedotamme jäseniä pääasiassa telegramissa, jonne liittymislinkin saat kun olet liittynyt jäseneksi. Käytämme myös sähköpostilistaa.
 
 LaTeResin toimintaa voi seurata parhaiten meidän [Instagramista](https://www.instagram.com/lateres_ry/)!
 
----

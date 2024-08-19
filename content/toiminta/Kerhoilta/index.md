@@ -2,7 +2,7 @@
 fragment = "content"
 weight = 100
 #background = ""
-categories = ["Lateres", "Kerhoilta", "Toiminta", "2023"]
+categories = ["Lateres", "Kerhoilta", "Toiminta"]
 
 title = "Kerhoillat"
 #subtitle = ""
