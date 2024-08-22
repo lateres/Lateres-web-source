@@ -12,7 +12,7 @@ date = "2024-08-22"
 display_date = true
 
 summary = """
-Markkinoiden halvin taistelupaita toimii hyvin kesäisenä ampumaratapäivänä. “Taistelupaita” nimi kuitenkin hämää, sillä tämä tuote soveltuu hieman kehnosti taisteluihin. Paita ei ole palosuojattu, toisin kuin...
+Oli perjantai 9. elokuuta ja istuskelin LUT Buffassa syömässä. Kello näytti puolta päivää ja mietiskelin että mitähän tarviin mukaan lateresin kesäpäiville. Muistellessa edellistä vuotta pöytäseuran kanssa, tulin(tirsk)...
 """
 
 [asset]
