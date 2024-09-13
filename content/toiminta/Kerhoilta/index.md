@@ -16,7 +16,7 @@ LaTeRes järjestää osana normaalia toimintaansa kerhoiltoja jäsenilleen. Kerh
 """
 
 [asset]
-image = "bunu.JPG"
+image = "2024-RMY-Bunu--3.jpg"
 
 +++
 
