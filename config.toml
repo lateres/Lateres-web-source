@@ -93,8 +93,8 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 90
 
 [[menu.main]]
-  url = "https://holvi.com/shop/LaTeRes-ry/"
-  name = "Verkkokauppa"
+  url = "/operWillimies"
+  name = "Maanpuolustuspäivät"
   weight = 100
 
 [[menu.footer]]
