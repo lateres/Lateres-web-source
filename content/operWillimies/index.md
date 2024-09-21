@@ -1,4 +1,4 @@
 +++
-title = "Liity"
+title = "Maanpuolustuspäivät"
 date = "2017-10-05"
 +++

@@ -9,23 +9,44 @@ title = ""
 #subtitle = ""
 +++
 
-# Maanpuolustuspäivät / Operaatio Willimies 2024
+## Maanpuolustuspäivät / Operaatio Willimies 2024
+
 <br>
 <div style="display: flex; width: auto; margin-left: 0;">
   <div style="flex: 1; padding-right: 1px;">
-    <strong>Ajankohta</strong><br>
-    <strong>Kesto</strong><br>
-    <strong>Paikkakunta</strong><br>
-    <strong>Ilmoittautumisaika</strong><br>
+    <strong>Ajankohta</strong><br><br>
   </div>
   <div style="flex: 1; padding-left: 1px;">
-    18.10.2024 - 20.10.2024<br>
-    2.5 päivää<br>
-    Lappeenranta<br>
-    23.9.2024 09:00- 11.10.2024 23:59<br>
+    18.10.2024 - 20.10.2024<br><br>
   </div>
 </div>
-<br>
+
+<div style="display: flex; width: auto; margin-left: 0;">
+  <div style="flex: 1; padding-right: 1px;">
+    <strong>Kesto</strong><br><br>
+  </div>
+  <div style="flex: 1; padding-left: 1px;">
+    2.5 päivää<br><br>
+  </div>
+</div>
+
+<div style="display: flex; width: auto; margin-left: 0;">
+  <div style="flex: 1; padding-right: 1px;">
+    <strong>Paikkakunta</strong><br><br>
+  </div>
+  <div style="flex: 1; padding-left: 1px;">
+    Lappeenranta<br><br>
+  </div>
+</div>
+
+<div style="display: flex; width: auto; margin-left: 0;">
+  <div style="flex: 1; padding-right: 1px;">
+    <strong>Ilmoittautumisaika</strong><br><br>
+  </div>
+  <div style="flex: 1; padding-left: 1px;">
+    23.9.2024 09:00 - 11.10.2024 23:59<br><br>
+  </div>
+</div>
 
 ##### Tavoite
 
@@ -69,5 +90,5 @@ Lappeenranta
 
 Piirin puheenjohtaja Kasper Saarinen<br>
 Kapu@lateres.fi<br>
-tg: @randomranger<br>
+TG: [@randomranger<br>](https://t.me/Randomranger)
 Puh. 0407451996<br>
