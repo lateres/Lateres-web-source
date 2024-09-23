@@ -47,6 +47,26 @@ title = ""
     23.9.2024 09:00 - 11.10.2024 23:59<br><br>
   </div>
 </div>
+<style>
+    .ilmo {
+      background-color: #2a385f;
+      color: white;
+      padding: 10px 100px;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 20px;
+      cursor: pointer;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .ilmo:hover {
+      background-color: #191a2b;
+      color: white;
+      text-decoration: none;
+    }
+</style>
+<a href="https://forms.gle/qzy92qHpUvxSGjzw7" class="ilmo">Ilmoittaudu</a>
+<br><br>
 
 ##### Tavoite
 
