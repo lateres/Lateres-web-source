@@ -21,6 +21,13 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
+header = "Iina Marttinen"
+
+[[rows.values]]
+header = "Somevastaava"
+
+[[rows]]
+[[rows.values]]
 header = "Manu Heiskanen"
 
 [[rows.values]]

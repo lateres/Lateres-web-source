@@ -80,4 +80,11 @@ header = "Niilo Hendolin"
 
 [[rows.values]]
 header = "Ampumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Roni-Ahto Järvelä"
+
+[[rows.values]]
+header = "Ampumatoimihenkilö"
 +++

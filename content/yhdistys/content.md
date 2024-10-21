@@ -28,9 +28,9 @@ Katso kuvia ja videoita meidän toiminnasta  [Instagramissa](https://www.instagr
 
 #### Yhteystiedot
 
-Lappeenrannan teekkarireserviläiset ry<br>
+Lappeenrannan Teekkarireserviläiset ry<br>
 hallitus(at)lateres.fi<br><br>
 Ylioppilastalo<br>
-Laserkatu 10<br>
+Laserkatu 10<br>S
 53850 Lappeenranta<br>
 Y-tunnus 3041760-8<br>

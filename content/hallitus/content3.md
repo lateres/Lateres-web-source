@@ -74,4 +74,11 @@ header = "Roni-Ahto Järvelä"
 [[rows.values]]
 header = "Tapahtumatoimihenkilö"
 
+[[rows]]
+[[rows.values]]
+header = "Pekka Kaukonen"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
 +++
