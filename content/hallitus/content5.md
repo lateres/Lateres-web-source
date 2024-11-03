@@ -32,4 +32,10 @@ header = "Miikka Huotari"
 [[rows.values]]
 header = "Etelä-Karjalan Reserviupseeripiiri"
 
+[[rows]]
+[[rows.values]]
+header = "Oskari Antikainen"
+
+[[rows.values]]
+header = "Etelä-Karjalan Reserviupseeripiiri"
 +++

@@ -23,11 +23,11 @@ image = "airsoft.jpg"
 
 Lateres järjestää jäsenistölleen satunnaisesti airsoftia. Pelejä pyritään järjestämään ainakin parin
 viikon välein pääosin viikonlopuille sijoittuen. Tapahtumien sisältöä pyritään vaihtelemaan aina
-rennoista mättöpeleistä suunnitelmalliseen TRA-harjoitteluun ja kaikkea siitä väliltä. Omien pelien
+rennoista mättöpeleistä omatoimiseen harjoitteluun ja kaikkea siitä väliltä. Omien pelien
 lisäksi jäsenistö tekee satunnaisesti koordinoituja iskuja lähialueen muiden airsoft-yhdistysten
 peleihin.
 
-Toimintaa voi tulla kokeilemaan vaikka ei olisi omia aseita. Aktiivisilta jäseniltä löytyy useita
+Toimintaa voi tulla kokeilemaan vaikka ei olisi omia aseita. LaTeResilta löytyy lainavälineitä viidelle henkilölle. Lisäksi, aktiivisilta jäseniltä löytyy useita
 ”varapyssyjä”, joten Lateresin kanavilla kyselemällä saa yleensä sopivan kuularuiskun lainaan.
 
 Pääasiallisena pelipaikkana toimii käytöstä poistettu vanha Skinnarilan koulu. Koulun osoite on
