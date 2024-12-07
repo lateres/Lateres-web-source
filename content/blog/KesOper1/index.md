@@ -4,7 +4,7 @@ weight = 100
 #background = ""
 categories = ["Lateres", "Kesäoperaatio", "2024"]
 
-title = "Kesäoperaatio 2024 1/3"
+title = "Kesäoperaatio 2024 1/2"
 #subtitle = ""
 title_align = "left"
 
