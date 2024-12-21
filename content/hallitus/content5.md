@@ -20,13 +20,6 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Jesper Saarinen"
-
-[[rows.values]]
-header = "Yhteystoimihenkilö"
-
-[[rows]]
-[[rows.values]]
 header = "Miikka Huotari"
 
 [[rows.values]]
@@ -34,8 +27,9 @@ header = "Etelä-Karjalan Reserviupseeripiiri"
 
 [[rows]]
 [[rows.values]]
-header = "Oskari Antikainen"
+header = "Lauri Kivinen"
 
 [[rows.values]]
 header = "Etelä-Karjalan Reserviupseeripiiri"
+
 +++

@@ -2,12 +2,13 @@
 fragment = "table"
 #disabled = false
 date = "2017-10-10"
-weight = 160
+weight = 200
 #background = "secondary"
 
 title = ""
-subtitle= "Naisjäsen-asiat"
+subtitle= "Bunkkeri"
 #title_align = "left" # Default is center, can be left, right or center
+
 
 [header]
 [[header.values]]
@@ -20,16 +21,16 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Senni Auvinen"
+header = "Lauri Kivinen"
 
 [[rows.values]]
-header = "Toimihenkilö"
+header = "Vääpeli"
 
 [[rows]]
 [[rows.values]]
-header = "Iina Marttinen"
+header = "Matias Kela"
 
 [[rows.values]]
-header = "Toimihenkilö"
+header = "Päivystäjä"
 
 +++

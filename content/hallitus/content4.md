@@ -21,7 +21,14 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Iina Marttinen"
+header = "Vilma Lappalainen"
+
+[[rows.values]]
+header = "Somevastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Jenni Arvola"
 
 [[rows.values]]
 header = "Somevastaava"
@@ -35,21 +42,14 @@ header = "Graaffikko/Kuvaaja"
 
 [[rows]]
 [[rows.values]]
-header = "Roope Myller"
+header = "Henrik Luukkonen"
 
 [[rows.values]]
-header = "Kuvaaja/www"
-
-[[rows]]
-[[rows.values]]
-header = "Francois Pakkanen"
-
-[[rows.values]]
-header = "Videoeditointi"
+header = "Graaffikko/Kuvaaja"
 
 [[rows]]
 [[rows.values]]
-header = "Elias Samuli"
+header = "Henri Ilves"
 
 [[rows.values]]
 header = "www-vastaava"

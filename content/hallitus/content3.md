@@ -20,14 +20,14 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Eeli Lampinen"
+header = "Lauri Westerholm"
 
 [[rows.values]]
-header = "Kenttäkelpoisuusvastaava"
+header = "Tapahtumatoimihenkilö"
 
 [[rows]]
 [[rows.values]]
-header = "Vilma Lappalainen"
+header = "Karri Keskimäki"
 
 [[rows.values]]
 header = "Tapahtumatoimihenkilö"
@@ -55,14 +55,7 @@ header = "Tapahtumatoimihenkilö"
 
 [[rows]]
 [[rows.values]]
-header = "Robert Lönnfors"
-
-[[rows.values]]
-header = "Tapahtumatoimihenkilö"
-
-[[rows]]
-[[rows.values]]
-header = "Leevi Westerholm"
+header = "Lauri Kivinen"
 
 [[rows.values]]
 header = "Tapahtumatoimihenkilö"
