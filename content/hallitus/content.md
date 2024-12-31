@@ -58,7 +58,7 @@ header = "Tapahtumavastaava"
 header = "Tuomas Turpeinen"
 
 [[rows.values]]
-header = "Taisteluvastaava"
+header = "Ampumavastaava"
 
 [[rows]]
 [[rows.values]]
