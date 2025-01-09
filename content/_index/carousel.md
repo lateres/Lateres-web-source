@@ -1,7 +1,7 @@
 +++
 fragment = "image-carousel"
 weight = 200
-date = "2024-12-30"
+date = "2025-1-10"
 background = "light"
 
 images = [
