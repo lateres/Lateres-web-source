@@ -44,6 +44,6 @@ Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (
 Lappeenrannan Teekkarireserviläiset ry<br>
 hallitus(at)lateres.fi<br><br>
 Ylioppilastalo<br>
-Laserkatu 10<br>S
+Laserkatu 10<br>
 53850 Lappeenranta<br>
 Y-tunnus 3041760-8<br>

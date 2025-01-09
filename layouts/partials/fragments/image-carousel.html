@@ -1,0 +1,216 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $bg := $fragment.background | default "secondary" }}
+
+<section id="{{ .Params.fragment }}" class="custom-slider-section bg-{{ .Params.background }}">
+    <div class="overlay container-fluid">
+        <div class="container py-0">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="carousel">
+                        <button class="carousel__button carousel__button--left" aria-label="Previous Slide">
+                            <img src="/images/leftArrow.svg" alt="Previous">
+                        </button>
+                        <div class="carousel__track-container">
+                            <ul class="carousel__track">
+                                {{ range .Params.images }}
+                                <li class="carousel__slide">
+                                    <img class="carousel__image" src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                        <button class="carousel__button carousel__button--right" aria-label="Next Slide">
+                            <img src="/images/rightArrow.svg" alt="Next">
+                        </button>
+
+                        <div class="carousel__nav">
+                            {{ range .Params.images }}
+                            <button class="carousel__indicator"></button>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Carousel Container */
+        .carousel {
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        /* Track Container */
+        .carousel__track-container {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel__track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            width: 100%;
+        }
+
+        /* Individual Slide */
+        .carousel__slide {
+            flex: 0 0 100%;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* Image Style */
+        .carousel__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Navigation Buttons */
+        .carousel__button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20%;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
+            height: 40px;
+            width: 40px;
+        }
+
+        .carousel__button img {
+            width: 30px;
+            height: 30px;
+            opacity: 0.7;
+        }
+
+        .carousel__button--left {
+            left: 10px;
+        }
+
+        .carousel__button--right {
+            right: 10px;
+        }
+
+        /* Indicators */
+        .carousel__nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .carousel__indicator {
+            width: 14px;
+            height: 14px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: lightgray;
+            border: none;
+            cursor: pointer;
+        }
+
+        .carousel__indicator.active {
+            background: darkgray;
+        }
+
+        /* Mobile responsiveness for carousel */
+        @media (max-width: 768px) {
+            .carousel__button img {
+                width: 20px;
+                height: 20px;
+            }
+            
+            .carousel__indicator {
+                width: 10px;
+                height: 12px;
+            }
+        }
+    </style>
+
+    <script>
+        const track = document.querySelector('.carousel__track');
+        const slides = Array.from(track.children);
+        const nextButton = document.querySelector('.carousel__button--right');
+        const prevButton = document.querySelector('.carousel__button--left');
+        const indicatorsContainer = document.querySelector('.carousel__nav');
+        let currentIndex = 0;
+        let autoSlideInterval;
+
+        // Create Indicators dynamically
+        function createIndicators() {
+            indicatorsContainer.innerHTML = ''; // Clear existing indicators
+            slides.forEach((_, index) => {
+                const indicator = document.createElement('button');
+                indicator.classList.add('carousel__indicator');
+                indicator.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                    resetAutoSlide();
+                });
+                indicatorsContainer.appendChild(indicator);
+            });
+        }
+
+        function updateCarousel() {
+            const slideWidth = slides[0].getBoundingClientRect().width; // Get the width of the first slide
+            track.style.transform = `translateX(-${(currentIndex % slides.length) * slideWidth}px)`; // Ensure the translation is correct
+
+            Array.from(indicatorsContainer.children).forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        // Manual Navigation
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateCarousel();
+            resetAutoSlide();
+        });
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateCarousel();
+            resetAutoSlide();
+        });
+
+        // Auto-Slide Functionality
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(() => {
+                currentIndex = (currentIndex + 1) % slides.length;
+                updateCarousel();
+            }, 5000); // Change every 5 seconds
+        }
+
+        // Stop Auto-Slide and Restart
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            startAutoSlide();
+        }
+
+        // Initialize carousel and start auto-slide
+        createIndicators();
+        updateCarousel();
+        startAutoSlide();
+
+        // Recalculate carousel position on window resize
+        let resizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(updateCarousel, 100);
+        });
+    </script>
+</section>

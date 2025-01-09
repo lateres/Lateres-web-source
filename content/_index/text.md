@@ -2,7 +2,7 @@
 fragment = "content"
 #disabled = false
 date = "2017-09-09"
-weight = 1000
+weight = 100
 
 background = "light"
 +++
@@ -18,10 +18,3 @@ Meillä toiminta tapahtuu kovalla yhteishengellä sotilasarvoon, palvelustaustaa
 Jos sinulta löytyy kiinnostusta reserviäistoimintaan opiskelujen ohella tai vaikka ei mukamas löydy, tutustu [Yhdistys](/yhdistys), [Toiminta](/toiminta) ja [Liity](/liity) välilehtiin ja ota meidän [Instagram](https://www.instagram.com/lateres_ry/) seurantaan!
 
 ---
-
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5fQ-Wp2oklQ" 
-        title="big dawgs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-</div>
