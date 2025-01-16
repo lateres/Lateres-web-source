@@ -17,7 +17,7 @@ Lappeenrannan Teekkarireserviläiset ry on ORUP:n ja sitä kautta Suomen Reservi
 
 Lateresin tapahtumiin ovat tervetulleita kaikki opiskelijat oppilaitokseen, ikään, kansalaisuuteen, sukupuoleen, rotuun, asepalvelushistoriaan tai epäseksuaaliseen suuntautumiseen katsomatta.
 
-Lateres säännölliseen tapahtuma-arsenaaliin kuuluu mm. viikottaiset ammunnat sekä joka toinen viikko kerhoilta jatkosodan aikaisessa konekivääribunkkerissa. Lisää meidän toiminnasta voit lukea [Toiminta](/toiminta) sivulta.
+Lateres säännölliseen tapahtuma-arsenaaliin kuuluu mm. viikottaiset ammunnat sekä joka toinen viikko kerhoilta jatkosodan aikaisessa konekivääribunkkerissa. Lisää meidän toiminnasta voit lukea [toiminta](/toiminta) sivulta.
 
 Katso kuvia ja videoita meidän toiminnasta  [Instagramissa](https://www.instagram.com/lateres_ry/)!
 
