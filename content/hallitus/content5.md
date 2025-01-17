@@ -23,13 +23,13 @@ hide_on_mobile = false
 header = "Miikka Huotari"
 
 [[rows.values]]
-header = "Etelä-Karjalan Reserviupseeripiiri"
+header = "Etelä-Karjalan Reserviläispiiri"
 
 [[rows]]
 [[rows.values]]
 header = "Lauri Kivinen"
 
 [[rows.values]]
-header = "Etelä-Karjalan Reserviupseeripiiri"
+header = "Etelä-Karjalan Reserviläispiiri"
 
 +++

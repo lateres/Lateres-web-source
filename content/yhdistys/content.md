@@ -30,7 +30,7 @@ Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (
 ---
 #### LaTeRes - Historia
 
-**1979** - Lappeenrannan Reserviupseerikerhoon alaiseksi osastoksi perustettiin Teekkariupseerit. Heti alusta kerho järjesti tapahtumia kaikille opiskelijoille, eikä pelkästään upseereille.<br>
+**1979** - Lappeenrannan Reserviupseerikerhon alaiseksi osastoksi perustettiin Teekkariupseerit. Heti alusta kerho järjesti tapahtumia kaikille opiskelijoille, eikä pelkästään upseereille.<br>
 **1988** - Lappeenrannan Teekkariupseerit (LaTu) ry perustettin 10. kesäkuuta.<br>
 **2000** - Vuosituhannen vaihteen jälkeen LaTu ry:n toiminta hiipui<br>
 **2013** - LaTeRes kerho perustettiin ylioppilaskunnan alle.<br>
