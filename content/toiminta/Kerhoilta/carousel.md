@@ -8,8 +8,7 @@ images = [
   { src = "Bunu1.jpg", alt = "Kuva 1" },
   { src = "Bunu2.jpeg", alt = "Kuva 2" },
   { src = "Bunu3.jpeg", alt = "Kuva 3" },
-  { src = "Bunu4.jpg", alt = "Kuva 4" },
-  { src = "Skinnarilan_koulu.jpg", alt = "Kuva 5" }
+  { src = "Bunu4.jpg", alt = "Kuva 4" }
 ]
 
 +++

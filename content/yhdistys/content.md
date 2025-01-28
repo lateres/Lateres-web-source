@@ -36,6 +36,7 @@ Opiskelijain Reserviupseeripiiri ry (ORUP) on yksi Suomen Reserviupseeriliiton (
 **2013** - LaTeRes kerho perustettiin ylioppilaskunnan alle.<br>
 **2016** - LaTu ry herätettiin uudestaan henkiin Patentti- ja rekisterihallituksen (PRH) syövereistä.<br>
 **2017** - LaTu ry säännöt päivitettiin ja nimi muutettiin LaTeRes ry:ksi maaliskuussa. LaTeRes kerho lakkautettiin 13. joulukuuta ja kaikki toiminta siirrettiin LaTeRes ry:n alaiseksi. Lisäksi LaTeRes ry liittyi Opiskelijain Reserviupseeripiiriin.<br>
+**2023** - LaTeResissa yli 300 jäsentä.<br>
 
 ---
 
