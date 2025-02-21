@@ -25,16 +25,16 @@ Jäsenrekisteri on Maanpuolustusrekisterissä, jossa jäsen voi päivittää yht
 
 #### Kirjautuminen jäsenrekisteriin
 
-1. mene osoitteeseen-> https://asiointi.reservilaisliitto.fi/Kirjautuminen
+1. Mene osoitteeseen-> https://asiointi.reservilaisliitto.fi/Kirjautuminen
 2. Jäsennumerosi toimii käyttäjätunnuksena. Löydät sen jäsenkortistasi tai jäsenmaksulaskustasi. Ensimmäisellä kirjautumiskerralla salasana tulee tilata jäsenrekisterissä olevaan sähköpostiosoitteeseen. Tilaaminen tapahtuu painamalla "Unohditko salasanan?" linkkiä
 
 ---
 
-#### Jäsenmaksun maksaminen jos lasku hukassa
+#### Jäsenmaksun maksaminen, jos lasku on hukkkunut
 
-1. Kun olet kirjautunut sisään jäsenrekisteriin, siirry kohtaan "jäsenyydet ja laskut" jonka jälkeen valitse "laskut".
+1. Kun olet kirjautunut sisään jäsenrekisteriin, valitse etusivulta "Laskut" tai siirry kohtaan "Omat tiedot -> Maksut".
 2. Etsi listasta tämän vuoden lasku (ei välttämättä ole listassa ensimmäisenä)
-3. Maksa lasku + 25€ (rul plus) koska haluat myös olla vakuutettu aina kun käyt ampumassa LaTeResin ammunnoissa. Rul plus on välttämätön toiminnallisiin ammuntoihin osallistuessa.
+3. Maksa lasku + 25€ (RUL PLUS) koska haluat myös olla vakuutettu aina kun käyt ampumassa LaTeResin ammunnoissa. RUL PLUS on välttämätön toiminnallisiin ammuntoihin osallistuessa.
 
 ---
 
