@@ -70,12 +70,17 @@ lastmod = ["lastmod", ":git", "date"]
 [[menu.main]]
   url = "/toiminta"
   name = "Toiminta"
-  weight = 25
+  weight = 30
 
 [[menu.main]]
   url = "/liity"
   name = "Liity"
   weight = 40
+
+[[menu.main]]
+  url = "/jasenille"
+  name = "Jäsenille"
+  weight = 50
 
 [[menu.main]]
   url = "/hallitus"
