@@ -21,13 +21,6 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Vilma Lappalainen"
-
-[[rows.values]]
-header = "Somevastaava"
-
-[[rows]]
-[[rows.values]]
 header = "Jenni Arvola"
 
 [[rows.values]]
