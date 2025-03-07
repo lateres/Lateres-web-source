@@ -93,7 +93,7 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 70
 
 [[menu.main]]
-  url = "/legio-externa"
+  url = "https://www.legioexterna.eu/home"
   name = "Legio Externa"
   weight = 90
 
