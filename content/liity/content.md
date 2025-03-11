@@ -34,7 +34,7 @@ Lateresin jäseneksi voi liittyä sotilasarvosta, suoritetusta asevelvollisuudes
 
 </style>
 <div class="center">
-<a href="https://maanpuolustusrekisteri.fi/verkkolomakkeet/Jasenhakemus/LiitonYhdistys?organisaatio=1" class="button"> LIITY TÄSTÄ! </a>
+<a href="https://maanpuolustusrekisteri.fi/verkkolomakkeet/Jasenhakemus/Yhdistys?organisaatio=15458835" class="button"> LIITY TÄSTÄ! </a>
 </div>
 <br>
 
