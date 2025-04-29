@@ -15,7 +15,7 @@ summary = """
 Taistelijoiden moraalin ylläpitämiseksi tapahtumiin kuuluu myös Animeillat, yhteistyössä LaKun kanssa. Näissä iltamissa nautitaan..."""
 
 [asset]
-image = "animeilta.png"
+image = "animeilta.jpg"
 
 +++
 
