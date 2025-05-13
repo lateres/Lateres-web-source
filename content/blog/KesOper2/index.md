@@ -28,15 +28,6 @@ Aamumme alkoi retkellä ampumaradalle. Olimme päättäneet mennä selvittämä�
 
 Rakensimme ensiksi radan puolarille ja olimme hyvin optimisteja ratapäivän kulun suhteen. Luontoäiti ei kuitenkaan nauttinut lyijyn kylvämisestä penkkaan ja päätti aiheuttaa meille ampumateknisiä haasteita. Paikallinen monsuuni tuhosi pahviset taulut nopeammin kiinnikeistä kuin me kerkesimme niihin pistoolilla ysiä kylvämään. Rata tulvi hetkessä mutta onneksi radalle muodostuneet vesiesteet eivät olleet nilkkoja syvempiä. Pahimman myräkän mentyä ohi jatkoimme paukuttamista pelteihin, olihan inflaatio hävittänyt pahvit olemattomiin. 
 
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HkgmoUATrBc" 
-        title="Kesäoperaatio 2024 ammunnat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-</div>
-
-<br>
-
 Paukuttelujen jälkeen siirryimme Mikkelin keskustaan etsimään lounaspaikkaa. Olimme huolissamme operaation turvallisuudesta, olihan meillä käynnissä erityisoperaatio. Pääsimme kuitenkin hengähtämään kun tajusimme keskustassa virkavallan viettävän valtakunnallista poliisien päivää. Koimme maastopuvuissa olon turvalliseksi ja päätimme hieman vierailla heidän ständeillä. Pääsin myös nauttimaan hyvän käytöksen johdosta maijan takapaksista. Lopulta nälkä kuitenkin ohjasi porsaat syömään ja eksyimme porukalla paikalliselle grillille syömään.
 
 Keskustan sekoilujen jälkeen siirryimme jonnekkin perämetsään(OPSEC) jossa odotti viikonlopun kohokohta. Teekkareiden unelma 10350kg kylmää neuvosto terästä, 14,86 litrainen kiisseli v8 joka tuottaa 240 hevosvoimaa. Tämä MT-LB/V kuljetuspanssarivaunu oli suulissa odottamassa ruudinkatkusta kiihottuneita tekniikan ammattilaisia. Emme kerenneet edes pakua kunnolla jamaan parkkiin, kun innokkaimmat kiipesivät kuolaten vaunun päälle ihmettelemään tätä itäeuroopan helmeä.

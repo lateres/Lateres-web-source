@@ -10,18 +10,180 @@
     <div class="container py-2">
       <div class="row">
         <div class="col text-center">
-          <div class="embed-responsive embed-responsive-{{ $ratio }}">
-            <iframe 
-              class="embed-responsive-item" 
-              src="{{ $videoSrc }}" 
-              title="{{ $fragment.iframe_title | default "Video Player" }}" 
-              frameborder="0" 
-              allow="encrypted-media" 
-              allowfullscreen>
-            </iframe>
-          </div>
+          {{ if $fragment.video }}
+            <div class="youtube-consent-wrapper ratio ratio-{{ $ratio }}">
+              <div class="youtube-consent-container" 
+                  data-video-src="{{ $videoSrc }}" 
+                  data-iframe-title="{{ $fragment.iframe_title | default "Video Player" }}">
+                <div class="youtube-consent-placeholder">
+                  <p>Jos haluat katsoa tämän YouTube-videon, hyväksy evästeet.</p>
+                  <button class="youtube-consent-button">Hyväksy evästeet</button>
+                </div>
+              </div>
+            </div>
+          {{ end }}
         </div>
       </div>
     </div>
   </div>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent-banner-{{ $name }}" class="cookie-banner" style="display: none;">
+    <p>Sivustolla käytetään evästeitä upotettuihin YouTube-videoihin. <a href="https://policies.google.com/privacy?hl=fi" target="_blank">Tietosuojakäytäntö</a></p>
+    <button class="cookie-accept">Hyväksy</button>
+    <button class="cookie-decline">Hylkää</button>
+  </div>
+
+  <style>
+    /* YouTube Container */
+    .youtube-consent-wrapper {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .youtube-consent-container {
+      width: 100%;
+      height: 100%;
+    }
+    
+    /* Placeholder Styling */
+    .youtube-consent-placeholder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: #f5f5f5;
+      color: #333;
+    }
+    
+    .youtube-consent-button {
+      padding: 8px 16px;
+      background: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    
+    /* Cookie Banner */
+    .cookie-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #f8f9fa;
+      padding: 15px;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+      z-index: 9999;
+      text-align: center;
+      border-top: 1px solid #dee2e6;
+    }
+    
+    .cookie-banner p {
+      margin-bottom: 10px;
+    }
+    
+    .cookie-banner button {
+      padding: 5px 15px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .cookie-accept {
+      background: #4285f4;
+      color: white;
+    }
+    
+    .cookie-decline {
+      background: #f1f1f1;
+      color: #333;
+    }
+    
+    /* Responsive iframe */
+    .youtube-iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+
+  <script>
+    (function() {
+      // Unique IDs for this fragment's elements
+      const bannerId = 'cookie-consent-banner-{{ $name }}';
+      const storageKey = 'cookieConsent_{{ $name }}';
+      
+      // Check existing consent
+      const consentGiven = localStorage.getItem(storageKey) === 'true';
+      
+      // Show banner if no consent decision was made
+      if (localStorage.getItem(storageKey) === null) {
+        document.getElementById(bannerId).style.display = 'block';
+      }
+      
+      // Banner button handlers
+      document.getElementById(bannerId)?.querySelector('.cookie-accept').addEventListener('click', function() {
+        localStorage.setItem(storageKey, 'true');
+        document.getElementById(bannerId).style.display = 'none';
+        loadYoutubeVideos();
+      });
+      
+      document.getElementById(bannerId)?.querySelector('.cookie-decline').addEventListener('click', function() {
+        localStorage.setItem(storageKey, 'false');
+        document.getElementById(bannerId).style.display = 'none';
+      });
+      
+      // Individual video consent buttons
+      document.querySelectorAll('#{{ $name }} .youtube-consent-button').forEach(button => {
+        button.addEventListener('click', function() {
+          localStorage.setItem(storageKey, 'true');
+          loadYoutubeVideos();
+        });
+      });
+      
+      // Load videos if consent was already given
+      if (consentGiven) {
+        loadYoutubeVideos();
+      }
+      
+      function loadYoutubeVideos() {
+        document.querySelectorAll('.youtube-consent-container').forEach(container => {
+          const videoSrc = container.getAttribute('data-video-src');
+          const title = container.getAttribute('data-iframe-title');
+          
+          // Use privacy-enhanced domain and ensure responsive layout
+          const nocookieSrc = videoSrc.includes('youtube.com') 
+            ? videoSrc.replace('youtube.com', 'youtube-nocookie.com')
+            : videoSrc;
+          
+          // Create responsive iframe that fills available width
+          container.innerHTML = `
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+              <iframe 
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                src="${nocookieSrc}" 
+                title="${title}" 
+                frameborder="0" 
+                allow="encrypted-media" 
+                allowfullscreen>
+              </iframe>
+            </div>
+          `;
+          
+          // Remove any ratio classes that might constrain it
+          container.closest('.youtube-consent-wrapper').classList.remove(`ratio-{{ $ratio }}`);
+        });
+      }
+    })();
+  </script>
 </section>
