@@ -15,6 +15,6 @@ menu_title = "Linkkejä"
   url = "#"
 +++
 
-#### Lappeenrannan teekkarireserviläiset
+#### Lappeenrannan Teekkarireserviläiset
 
 Opiskelijain Reservinupseeripiirin (ORUP) ja sitä kautta Suomen Reserviupseeriliiton (RUL) alainen yhdistys, jonka tarkoituksena on ylläpitää isänmaallista henkeä ja sotilastaitoja Lappeen Rantalaisten opiskelijoiden keskuudessa.
