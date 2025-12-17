@@ -13,29 +13,10 @@ title = ""
 
 Lateresin jäseneksi voi liittyä sotilasarvosta, suoritetusta asevelvollisuudesta tai haalareiden väristä riippumatta. Vaikka nimessä lukee Teekkari niin toiminnassamme on mukana myös muita opiskelijoita. Jäseneksi liitytään täyttämällä Suomen Reserviupseeriliiton (RUL) lomake. **Muista valita yhdistykseksi Lappeenrannan Teekkarireserviläiset LATERES RY!**
 
-<style>
-    .button {
-        background-color: #00838f;
-        color: white;
-        padding: 10px 100px;
-        border-radius: 12px;
-        text-align: center;
-        font-size: 24px;
-        font-weight: bold;
-        cursor: pointer;
-        display: block;
-        transition: background-color 0.3s ease;
-    }
-    .button:hover {
-        background-color: #054248;
-        color: white;
-        text-decoration: none;
-    }
 
-</style>
-<div class="center">
-<a href="https://maanpuolustusrekisteri.fi/verkkolomakkeet/Jasenhakemus/Yhdistys?organisaatio=15458835" class="button"> LIITY TÄSTÄ! </a>
-</div>
+<link rel="stylesheet" href="button/button.css">
+<a class="button" href="https://maanpuolustusrekisteri.fi/verkkolomakkeet/Jasenhakemus/Yhdistys?organisaatio=15458835"> <span>LIITY TÄSTÄ!</span> </a>
+
 <br>
 
 Jäsenmaksu on 21,5 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta RUL:in jäseniä ja saavat RUL:n jäsenedut sotilasarvosta huolimatta. Lisätietoa [ORUP:sta](https://www.rul.fi/orup/)
