@@ -21,10 +21,24 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Jenni Arvola"
+header = "Henna Häivälä"
+
+[[rows.values]]
+header = "Viestintävastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Essi Kontio"
 
 [[rows.values]]
 header = "Somevastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Onni Eklund"
+
+[[rows.values]]
+header = "Graaffikko"
 
 [[rows]]
 [[rows.values]]
@@ -35,10 +49,10 @@ header = "Graaffikko/Kuvaaja"
 
 [[rows]]
 [[rows.values]]
-header = "Henrik Luukkonen"
+header = "Roope Myller"
 
 [[rows.values]]
-header = "Graaffikko/Kuvaaja"
+header = "Kuvaaja"
 
 [[rows]]
 [[rows.values]]
@@ -46,5 +60,4 @@ header = "Henri Ilves"
 
 [[rows.values]]
 header = "www-vastaava"
-
 +++

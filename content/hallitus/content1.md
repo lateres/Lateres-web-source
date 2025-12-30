@@ -20,10 +20,10 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Tuomas Turpeinen"
+header = "Lauri Jokinen"
 
 [[rows.values]]
-header = "Ampumavastaava"
+header = "Ammuntavastaava"
 
 [[rows]]
 [[rows.values]]
@@ -48,13 +48,6 @@ header = "Ampumatoimihenkilö"
 
 [[rows]]
 [[rows.values]]
-header = "Sasha Vorobjev"
-
-[[rows.values]]
-header = "Ampumatoimihenkilö"
-
-[[rows]]
-[[rows.values]]
 header = "Robert Hämäläinen"
 
 [[rows.values]]
@@ -62,7 +55,7 @@ header = "Ampumatoimihenkilö"
 
 [[rows]]
 [[rows.values]]
-header = "Kasper Saarinen"
+header = "Tuomas Turpeinen"
 
 [[rows.values]]
 header = "Ampumatoimihenkilö"
@@ -80,5 +73,20 @@ header = "Roni-Ahto Järvelä"
 
 [[rows.values]]
 header = "Ampumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Hannes Turppo"
+
+[[rows.values]]
+header = "Ampumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Hugo Saario"
+
+[[rows.values]]
+header = "Ampumatoimihenkilö"
+
 
 +++

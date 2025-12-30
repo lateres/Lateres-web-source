@@ -20,10 +20,10 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Miikka Huotari"
+header = "Manu Heiskanen"
 
 [[rows.values]]
-header = "Etelä-Karjalan Reserviupseeripiiri"
+header = "Yhteysvastaava"
 
 [[rows]]
 [[rows.values]]

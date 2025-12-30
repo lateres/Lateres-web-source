@@ -20,28 +20,21 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Lauri Westerholm"
+header = "Einojuhani Kostiainen"
+
+[[rows.values]]
+header = "Tapahtumavastaava"
+
+[[rows]]
+[[rows.values]]
+header = "Leevi Westerholm"
 
 [[rows.values]]
 header = "Tapahtumatoimihenkilö"
 
 [[rows]]
 [[rows.values]]
-header = "Karri Keskimäki"
-
-[[rows.values]]
-header = "Tapahtumatoimihenkilö"
-
-[[rows]]
-[[rows.values]]
-header = "Joel Kae"
-
-[[rows.values]]
-header = "Tapahtumatoimihenkilö"
-
-[[rows]]
-[[rows.values]]
-header = "Lasse Lukkarinen"
+header = "Iina Marttinen"
 
 [[rows.values]]
 header = "Tapahtumatoimihenkilö"
@@ -62,6 +55,13 @@ header = "Tapahtumatoimihenkilö"
 
 [[rows]]
 [[rows.values]]
+header = "Matias Kela"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
 header = "Roni-Ahto Järvelä"
 
 [[rows.values]]
@@ -70,6 +70,20 @@ header = "Tapahtumatoimihenkilö"
 [[rows]]
 [[rows.values]]
 header = "Pekka Kaukonen"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Essi Kontio"
+
+[[rows.values]]
+header = "Tapahtumatoimihenkilö"
+
+[[rows]]
+[[rows.values]]
+header = "Onni Eklund"
 
 [[rows.values]]
 header = "Tapahtumatoimihenkilö"

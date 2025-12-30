@@ -27,42 +27,42 @@ header = "Puheenjohtaja"
 
 [[rows]]
 [[rows.values]]
-header = "Vilho Tanner"
+header = "Aleksis Päivärinta"
 
 [[rows.values]]
 header = "Varapuheenjohtaja"
 
 [[rows]]
 [[rows.values]]
-header = "Santeri Nikulainen"
+header = "Väinö Marttinen"
 
 [[rows.values]]
 header = "Rahastonhoitaja"
 
 [[rows]]
 [[rows.values]]
-header = "Henri Ilves"
+header = "Julius Airas"
 
 [[rows.values]]
 header = "Sihteeri"
 
 [[rows]]
 [[rows.values]]
-header = "Leevi Westerholm"
+header = "Einojuhani Kostiainen"
 
 [[rows.values]]
 header = "Tapahtumavastaava"
 
 [[rows]]
 [[rows.values]]
-header = "Tuomas Turpeinen"
+header = "Lauri Jokinen"
 
 [[rows.values]]
-header = "Ampumavastaava"
+header = "Ammuntavastaava"
 
 [[rows]]
 [[rows.values]]
-header = "Robert Hämäläinen"
+header = "Vilho Tanner"
 
 [[rows.values]]
 header = "Perinnevastaava"
@@ -76,21 +76,21 @@ header = "Yhteysvastaava"
 
 [[rows]]
 [[rows.values]]
-header = "Iina Marttinen"
+header = "Henna Häivälä"
 
 [[rows.values]]
 header = "Viestintävastaava"
 
 [[rows]]
 [[rows.values]]
-header = "Aleksis Päivärinta"
+header = "Otso Suuronen"
 
 [[rows.values]]
 header = "Hallituksen jäsen"
 
 [[rows]]
 [[rows.values]]
-header = "Miro Vauhkonen"
+header = "Antti Viinanen"
 
 [[rows.values]]
 header = "Hallituksen jäsen"

@@ -21,14 +21,14 @@ hide_on_mobile = false
 
 [[rows]]
 [[rows.values]]
-header = "Lauri Kivinen"
+header = "Matias Kela"
 
 [[rows.values]]
 header = "Vääpeli"
 
 [[rows]]
 [[rows.values]]
-header = "Matias Kela"
+header = "Lauri Kivinen"
 
 [[rows.values]]
 header = "Päivystäjä"
