@@ -49,31 +49,34 @@
 
         .card {
             flex: 0 0 auto;
-            width: 20em;
-            height: 15em;
+            height: clamp(140px, 20vw, 250px);
             border-radius: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: azure;
             margin: 0 10px;
+            border: none;
         }
 
         .card img {
-            width: 100%;
+            width: auto;
             height: 100%;
-            object-fit: cover;
-            border-radius: 20px;
+            object-fit: contain;
         }
 
         .carousel-track {
             display: flex;
             width: max-content;
-            animation: scroll 15s linear infinite;
+            animation: scroll 25s linear infinite;
+            transition: animation-duration 1s ease-out;
         }
 
         .carousel.reverse .carousel-track {
             animation-direction: reverse;
+        }
+
+        .carousel:hover .carousel-track {
+            animation-play-state: paused;
         }
 
         @keyframes scroll {
