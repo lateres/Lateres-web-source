@@ -1,7 +1,7 @@
 +++
 fragment = "patch-carousel"
 weight = 200
-date = "2025-1-10"
+date = "2026-1-28"
 background = "light"
 
 images = [

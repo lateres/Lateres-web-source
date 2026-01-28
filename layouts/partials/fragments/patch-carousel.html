@@ -12,7 +12,6 @@
                                 <img src="{{ .src }}" alt="{{ .alt }}" />
                             </div>
                             {{- end }}
-                            {{- /* Duplicate images for smooth infinite scroll */ -}}
                             {{- range $fragment.images }}
                             <div class="card">
                                 <img src="{{ .src }}" alt="{{ .alt }}" />
@@ -56,6 +55,7 @@
             justify-content: center;
             margin: 0 10px;
             border: none;
+            background: none;
         }
 
         .card img {
@@ -67,7 +67,7 @@
         .carousel-track {
             display: flex;
             width: max-content;
-            animation: scroll 25s linear infinite;
+            animation: scroll 30s linear infinite;
             transition: animation-duration 1s ease-out;
         }
 

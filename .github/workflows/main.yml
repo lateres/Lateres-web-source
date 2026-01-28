@@ -5,6 +5,8 @@ on:
     branches:
       - main
   pull_request:
+# schedule:
+#  - cron: '0 22 31 12 *' # 00:00 Jan 1 in Finland (UTC+2)
 
 jobs:
   deploy:
@@ -25,7 +27,8 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        # if: github.event_name == 'schedule'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: lateres/lateres.github.io
