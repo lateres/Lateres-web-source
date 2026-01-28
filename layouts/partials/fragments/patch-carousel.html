@@ -1,0 +1,91 @@
+{{- $fragment := .Params -}}
+{{- $bg := $fragment.background | default "light" -}}
+<section id="{{ $fragment.fragment }}" class="custom-slider-section bg-{{ $bg }}">
+    <div class="overlay container-fluid">
+        <div class="container py-0">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            {{- range $fragment.images }}
+                            <div class="card">
+                                <img src="{{ .src }}" alt="{{ .alt }}" />
+                            </div>
+                            {{- end }}
+                            {{- range $fragment.images }}
+                            <div class="card">
+                                <img src="{{ .src }}" alt="{{ .alt }}" />
+                            </div>
+                            {{- end }}
+                        </div>
+                    </div>
+
+                    <!-- SECOND ROW – REVERSED -->
+                    <div class="carousel reverse">
+                        <div class="carousel-track">
+                            {{- range $fragment.images }}
+                            <div class="card">
+                                <img src="{{ .src }}" alt="{{ .alt }}">
+                            </div>
+                            {{- end }}
+                            {{- range $fragment.images }}
+                            <div class="card">
+                                <img src="{{ .src }}" alt="{{ .alt }}">
+                            </div>
+                            {{- end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .carousel {
+            margin: 50px auto;
+            overflow: hidden;
+        }
+
+        .card {
+            flex: 0 0 auto;
+            height: clamp(140px, 20vw, 250px);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 10px;
+            border: none;
+            background: none;
+        }
+
+        .card img {
+            width: auto;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .carousel-track {
+            display: flex;
+            width: max-content;
+            animation: scroll 30s linear infinite;
+            transition: animation-duration 1s ease-out;
+        }
+
+        .carousel.reverse .carousel-track {
+            animation-direction: reverse;
+        }
+
+        .carousel:hover .carousel-track {
+            animation-play-state: paused;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</section>
