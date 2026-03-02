@@ -19,7 +19,7 @@ Lateresin jäseneksi voi liittyä sotilasarvosta, suoritetusta asevelvollisuudes
 
 <br>
 
-Jäsenmaksu on 21,5 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta RUL:in jäseniä ja saavat RUL:n jäsenedut sotilasarvosta huolimatta. Lisätietoa [ORUP:sta](https://www.rul.fi/orup/)
+Jäsenmaksu on 23 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta RUL:in jäseniä ja saavat RUL:n jäsenedut sotilasarvosta huolimatta. Lisätietoa [ORUP:sta](https://www.rul.fi/orup/)
 
 Jos sinulla on kysyttävää tai tarvitset lisätietoja jäsenasioihin liittyen, ota yhteyttä suoraan yhdistyksen sihteeriin:
 
