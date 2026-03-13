@@ -1,91 +1,120 @@
-{{- $fragment := .Params -}}
-{{- $bg := $fragment.background | default "light" -}}
-<section id="{{ $fragment.fragment }}" class="custom-slider-section bg-{{ $bg }}">
-    <div class="overlay container-fluid">
-        <div class="container py-0">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="carousel">
-                        <div class="carousel-track">
-                            {{- range $fragment.images }}
-                            <div class="card">
-                                <img src="{{ .src }}" alt="{{ .alt }}" />
-                            </div>
-                            {{- end }}
-                            {{- range $fragment.images }}
-                            <div class="card">
-                                <img src="{{ .src }}" alt="{{ .alt }}" />
-                            </div>
-                            {{- end }}
-                        </div>
-                    </div>
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $bg := $fragment.background | default "light" }}
 
-                    <!-- SECOND ROW – REVERSED -->
-                    <div class="carousel reverse">
-                        <div class="carousel-track">
-                            {{- range $fragment.images }}
-                            <div class="card">
-                                <img src="{{ .src }}" alt="{{ .alt }}">
-                            </div>
-                            {{- end }}
-                            {{- range $fragment.images }}
-                            <div class="card">
-                                <img src="{{ .src }}" alt="{{ .alt }}">
-                            </div>
-                            {{- end }}
-                        </div>
-                    </div>
-                </div>
+<section id="patchc-{{ $name }}" class="patchc-section bg-{{ $bg }}">
+    <div class="patchc__row">
+        <div class="patchc__track">
+            {{- range $fragment.images }}
+            <div class="patchc__card">
+                <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" />
             </div>
+            {{- end }}
+            {{- range $fragment.images }}
+            <div class="patchc__card">
+                <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" />
+            </div>
+            {{- end }}
+        </div>
+    </div>
+
+    <div class="patchc__row patchc__row--reverse">
+        <div class="patchc__track">
+            {{- range $fragment.images }}
+            <div class="patchc__card">
+                <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+            </div>
+            {{- end }}
+            {{- range $fragment.images }}
+            <div class="patchc__card">
+                <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+            </div>
+            {{- end }}
         </div>
     </div>
 
     <style>
-        .carousel {
-            margin: 50px auto;
+        .patchc-section {
+            padding: 2rem 0;
             overflow: hidden;
         }
 
-        .card {
-            flex: 0 0 auto;
-            height: clamp(140px, 20vw, 250px);
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 10px;
-            border: none;
-            background: none;
+        .patchc__row {
+            position: relative;
+            margin: 0.75rem 0;
+            overflow: hidden;
         }
 
-        .card img {
-            width: auto;
-            height: 100%;
-            object-fit: contain;
+        /* Fade edges */
+        .patchc__row::before,
+        .patchc__row::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 80px;
+            z-index: 2;
+            pointer-events: none;
         }
 
-        .carousel-track {
+        .patchc__row::before {
+            left: 0;
+            background: linear-gradient(to right, var(--bg-color, #f8f9fa), transparent);
+        }
+
+        .patchc__row::after {
+            right: 0;
+            background: linear-gradient(to left, var(--bg-color, #f8f9fa), transparent);
+        }
+
+        .patchc__track {
             display: flex;
             width: max-content;
-            animation: scroll 30s linear infinite;
-            transition: animation-duration 1s ease-out;
+            animation: patchc-scroll 35s linear infinite;
+            will-change: transform;
         }
 
-        .carousel.reverse .carousel-track {
+        .patchc__row--reverse .patchc__track {
             animation-direction: reverse;
         }
 
-        .carousel:hover .carousel-track {
+        .patchc__row:hover .patchc__track {
             animation-play-state: paused;
         }
 
-        @keyframes scroll {
-            0% {
-                transform: translateX(0);
+        @keyframes patchc-scroll {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-50%); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .patchc__track {
+                animation: none;
             }
-            100% {
-                transform: translateX(-50%);
-            }
+        }
+
+        .patchc__card {
+            flex: 0 0 auto;
+            height: clamp(120px, 18vw, 220px);
+            border-radius: 16px;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .patchc__card:hover {
+            transform: scale(1.04);
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        .patchc__card img {
+            width: auto;
+            height: 100%;
+            object-fit: contain;
+            display: block;
         }
     </style>
 </section>

@@ -2,221 +2,205 @@
 {{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
 {{- $bg := $fragment.background | default "light" }}
 
-<section id="{{ .Params.fragment }}" class="custom-slider-section bg-{{ .Params.background }}">
-    <div class="overlay container-fluid">
-        <div class="container py-0">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="carousel">
-                        <button class="carousel__button carousel__button--left" aria-label="Previous Slide">
-                            <img src="/images/leftArrow.svg" alt="Previous">
-                        </button>
-                        <div class="carousel__track-container">
-                            <ul class="carousel__track">
-                                {{ range .Params.images }}
-                                <li class="carousel__slide">
-                                    <img class="carousel__image" src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </div>
-                        <button class="carousel__button carousel__button--right" aria-label="Next Slide">
-                            <img src="/images/rightArrow.svg" alt="Next">
-                        </button>
-
-                        <div class="carousel__nav">
-                            {{ range .Params.images }}
-                            <button class="carousel__indicator"></button>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section id="imgc-{{ $name }}" class="imgc-section bg-{{ $bg }}">
+    <div class="container py-0">
+    <div class="imgc" id="imgc-widget-{{ $name }}">
+        <button class="imgc__btn imgc__btn--prev" aria-label="Previous slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="imgc__viewport">
+            <ul class="imgc__track">
+                {{ range $fragment.images }}
+                <li class="imgc__slide">
+                    <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+                </li>
+                {{ end }}
+            </ul>
         </div>
+        <button class="imgc__btn imgc__btn--next" aria-label="Next slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+        <div class="imgc__dots"></div>
+    </div>
     </div>
 
     <style>
-        /* Carousel Container */
-        .carousel {
+        .imgc {
             position: relative;
             width: 100%;
-            height: auto;
-            margin: 0 auto;
-            overflow: hidden;
+            user-select: none;
         }
 
-        /* Track Container */
-        .carousel__track-container {
+        .imgc__viewport {
             overflow: hidden;
-            position: relative;
+            border-radius: 12px;
         }
 
-        .carousel__track {
+        .imgc__track {
             display: flex;
-            transition: transform 0.5s ease-in-out;
-            padding: 0;
+            list-style: none;
             margin: 0;
-            list-style-type: none;
-            width: 100%;
+            padding: 0;
+            transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+            will-change: transform;
         }
 
-        /* Individual Slide */
-        .carousel__slide {
+        .imgc__slide {
             flex: 0 0 100%;
-            position: relative;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
+            min-width: 0;
         }
 
-        /* Image Style */
-        .carousel__image {
+        .imgc__slide img {
             width: 100%;
-            height: 100%;
+            height: clamp(320px, 60vw, 700px);
             object-fit: cover;
             display: block;
         }
 
-        /* Navigation Buttons */
-        .carousel__button {
+        .imgc__btn {
             position: absolute;
-            top: calc(50% - 20px);
-            transform: translateY(-50%); /* Center the button vertically */
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 20%;
-            border: none; /* Debug only */
-            cursor: pointer;
+            top: 50%;
+            transform: translateY(calc(-50% - 20px));
             z-index: 10;
-            height: 40px; /* Ensure height is consistent */
-            width: 40px;
-            display: flex; /* Center the arrow icon inside */
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: none;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            display: flex;
             align-items: center;
             justify-content: center;
-            padding: 0; /* Remove extra padding */
-            box-sizing: border-box; /* Include padding and border in the size */
+            color: #333;
+            transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+            padding: 0;
         }
 
-        .carousel__button img {
-            width: 30px;
-            height: 30px;
-            opacity: 0.7;
+        .imgc__btn:hover {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(calc(-50% - 20px)) scale(1.08);
+        }
+
+        .imgc__btn svg {
+            width: 20px;
+            height: 20px;
             pointer-events: none;
         }
 
-        .carousel__button--left {
-            left: 10px;
-        }
+        .imgc__btn--prev { left: 12px; }
+        .imgc__btn--next { right: 12px; }
 
-        .carousel__button--right {
-            right: 10px;
-        }
-
-        /* Indicators */
-        .carousel__nav {
+        .imgc__dots {
             display: flex;
             justify-content: center;
-            margin-top: 10px;
-            margin-bottom: 20px;
+            gap: 8px;
+            margin-top: 16px;
+            padding-bottom: 8px;
         }
 
-        .carousel__indicator {
-            width: 14px;
-            height: 14px;
-            margin: 0 5px;
-            border-radius: 50%;
-            background: lightgray;
+        .imgc__dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background: rgba(0, 0, 0, 0.2);
             border: none;
             cursor: pointer;
+            padding: 0;
+            transition: width 0.3s ease, background 0.3s ease;
         }
 
-        .carousel__indicator.active {
-            background: darkgray;
+        .imgc__dot.is-active {
+            width: 24px;
+            background: rgba(0, 0, 0, 0.55);
         }
 
-        /* Mobile responsiveness for carousel */
-        @media (max-width: 768px) {
-            .carousel__button img {
-                width: 20px;
-                height: 20px;
+        @media (max-width: 576px) {
+            .imgc__btn {
+                width: 36px;
+                height: 36px;
             }
-            
-            .carousel__indicator {
-                width: 10px;
-                height: 10px;
+            .imgc__btn svg {
+                width: 16px;
+                height: 16px;
             }
         }
     </style>
 
     <script>
-        const track = document.querySelector('.carousel__track');
-        const slides = Array.from(track.children);
-        const nextButton = document.querySelector('.carousel__button--right');
-        const prevButton = document.querySelector('.carousel__button--left');
-        const indicatorsContainer = document.querySelector('.carousel__nav');
-        let currentIndex = 0;
-        let autoSlideInterval;
+        (function () {
+            var widget = document.getElementById('imgc-widget-{{ $name }}');
+            if (!widget) return;
 
-        // Create Indicators dynamically
-        function createIndicators() {
-            indicatorsContainer.innerHTML = ''; // Clear existing indicators
-            slides.forEach((_, index) => {
-                const indicator = document.createElement('button');
-                indicator.classList.add('carousel__indicator');
-                indicator.addEventListener('click', () => {
-                    currentIndex = index;
-                    updateCarousel();
-                    resetAutoSlide();
+            var track = widget.querySelector('.imgc__track');
+            var slides = Array.from(widget.querySelectorAll('.imgc__slide'));
+            var dotsContainer = widget.querySelector('.imgc__dots');
+            var prevBtn = widget.querySelector('.imgc__btn--prev');
+            var nextBtn = widget.querySelector('.imgc__btn--next');
+            var current = 0;
+            var autoTimer;
+            var isAnimating = false;
+
+            // Build dots
+            slides.forEach(function (_, i) {
+                var dot = document.createElement('button');
+                dot.className = 'imgc__dot';
+                dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+                dot.addEventListener('click', function () { goTo(i); resetAuto(); });
+                dotsContainer.appendChild(dot);
+            });
+
+            function updateDots() {
+                Array.from(dotsContainer.children).forEach(function (d, i) {
+                    d.classList.toggle('is-active', i === current);
                 });
-                indicatorsContainer.appendChild(indicator);
+            }
+
+            function goTo(index) {
+                if (isAnimating) return;
+                isAnimating = true;
+                current = (index + slides.length) % slides.length;
+                track.style.transform = 'translateX(-' + (current * 100) + '%)';
+                updateDots();
+                setTimeout(function () { isAnimating = false; }, 560);
+            }
+
+            prevBtn.addEventListener('click', function () { goTo(current - 1); resetAuto(); });
+            nextBtn.addEventListener('click', function () { goTo(current + 1); resetAuto(); });
+
+            // Keyboard navigation
+            widget.setAttribute('tabindex', '0');
+            widget.addEventListener('keydown', function (e) {
+                if (e.key === 'ArrowLeft') { goTo(current - 1); resetAuto(); }
+                if (e.key === 'ArrowRight') { goTo(current + 1); resetAuto(); }
             });
-        }
 
-        function updateCarousel() {
-            const slideWidth = slides[0].getBoundingClientRect().width; // Get the width of the first slide
-            track.style.transform = `translateX(-${(currentIndex % slides.length) * slideWidth}px)`; // Ensure the translation is correct
-
-            Array.from(indicatorsContainer.children).forEach((indicator, index) => {
-                indicator.classList.toggle('active', index === currentIndex);
+            // Touch / swipe
+            var touchStartX = 0;
+            track.addEventListener('touchstart', function (e) {
+                touchStartX = e.touches[0].clientX;
+            }, { passive: true });
+            track.addEventListener('touchend', function (e) {
+                var dx = e.changedTouches[0].clientX - touchStartX;
+                if (Math.abs(dx) > 40) {
+                    goTo(dx < 0 ? current + 1 : current - 1);
+                    resetAuto();
+                }
             });
-        }
 
-        // Manual Navigation
-        nextButton.addEventListener('click', () => {
-            currentIndex = (currentIndex + 1) % slides.length;
-            updateCarousel();
-            resetAutoSlide();
-        });
+            function startAuto() {
+                autoTimer = setInterval(function () { goTo(current + 1); }, 5000);
+            }
+            function resetAuto() {
+                clearInterval(autoTimer);
+                startAuto();
+            }
 
-        prevButton.addEventListener('click', () => {
-            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-            updateCarousel();
-            resetAutoSlide();
-        });
-
-        // Auto-Slide Functionality
-        function startAutoSlide() {
-            autoSlideInterval = setInterval(() => {
-                currentIndex = (currentIndex + 1) % slides.length;
-                updateCarousel();
-            }, 5000); // Change every 5 seconds
-        }
-
-        // Stop Auto-Slide and Restart
-        function resetAutoSlide() {
-            clearInterval(autoSlideInterval);
-            startAutoSlide();
-        }
-
-        // Initialize carousel and start auto-slide
-        createIndicators();
-        updateCarousel();
-        startAutoSlide();
-
-        // Recalculate carousel position on window resize
-        let resizeTimeout;
-        window.addEventListener('resize', () => {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(updateCarousel, 100);
-        });
+            goTo(0);
+            startAuto();
+        })();
     </script>
 </section>
