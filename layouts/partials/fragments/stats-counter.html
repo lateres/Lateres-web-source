@@ -1,0 +1,109 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+
+<section id="stats-{{ $name }}" class="stats-counter-section bg-{{ $fragment.background | default "light" }}">
+    <div class="container py-0">
+        {{ with $fragment.title }}
+        <div class="row mb-4">
+            <div class="col text-center">
+                <h2 class="stats-counter__title">{{ . }}</h2>
+            </div>
+        </div>
+        {{ end }}
+        <div class="row justify-content-center">
+            {{ range $fragment.items }}
+            <div class="col-6 col-md-4 col-lg-3 text-center stats-counter__card">
+                <div class="stats-counter__number">
+                    {{ with .prefix }}<span class="stats-counter__prefix">{{ . }}</span>{{ end -}}
+                    <span class="stats-counter__value" data-target="{{ .value }}">0</span>
+                    {{- with .suffix }}<span class="stats-counter__suffix">{{ . }}</span>{{ end }}
+                </div>
+                <div class="stats-counter__label">{{ .label }}</div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <style>
+        .stats-counter-section {
+            padding: 0;
+        }
+
+        .stats-counter__title {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .stats-counter__card {
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stats-counter__number {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .stats-counter__label {
+            font-size: 1rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        @media (max-width: 576px) {
+            .stats-counter__number {
+                font-size: 2.25rem;
+            }
+        }
+    </style>
+
+    <script>
+        (function () {
+            var section = document.getElementById('stats-{{ $name }}');
+            if (!section) return;
+
+            var counters = Array.from(section.querySelectorAll('.stats-counter__value'));
+            var animated = false;
+
+            function animateCounters() {
+                if (animated) return;
+                animated = true;
+                counters.forEach(function (el) {
+                    var target = parseInt(el.getAttribute('data-target'), 10);
+                    var duration = 2500;
+                    var start = null;
+                    function step(timestamp) {
+                        if (!start) start = timestamp;
+                        var progress = Math.min((timestamp - start) / duration, 1);
+                        var eased = 1 - Math.pow(1 - progress, 3);
+                        el.textContent = Math.floor(eased * target);
+                        if (progress < 1) {
+                            requestAnimationFrame(step);
+                        } else {
+                            el.textContent = target;
+                        }
+                    }
+                    requestAnimationFrame(step);
+                });
+            }
+
+            if ('IntersectionObserver' in window) {
+                var observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            animateCounters();
+                            observer.disconnect();
+                        }
+                    });
+                }, { threshold: 0.3 });
+                observer.observe(section);
+            } else {
+                animateCounters();
+            }
+        })();
+    </script>
+</section>
