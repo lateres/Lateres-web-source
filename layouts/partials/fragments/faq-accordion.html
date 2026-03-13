@@ -1,0 +1,179 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+
+<section id="faq-{{ $name }}" class="faq-accordion-section bg-{{ $fragment.background | default "light" }}">
+    <div class="container py-5">
+        {{ with $fragment.title }}
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="faq-accordion__title">{{ . }}</h2>
+            </div>
+        </div>
+        {{ end }}
+        <div class="row">
+            <div class="col">
+                <div class="faq-accordion" id="faq-accordion-{{ $name }}">
+                    {{ range $i, $item := $fragment.items }}
+                    <div class="faq-accordion__item" id="faq-{{ $name }}-item-{{ $i }}">
+                        <button
+                            class="faq-accordion__question"
+                            aria-expanded="false"
+                            aria-controls="faq-{{ $name }}-answer-{{ $i }}"
+                        >
+                            <span>{{ $item.q }}</span>
+                            <span class="faq-accordion__chevron" aria-hidden="true"></span>
+                        </button>
+                        <div
+                            class="faq-accordion__answer"
+                            id="faq-{{ $name }}-answer-{{ $i }}"
+                            role="region"
+                        >
+                            <div class="faq-accordion__answer-inner">
+                                {{ $item.a | markdownify }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .faq-accordion-section {
+            padding: 0;
+        }
+
+        .faq-accordion__title {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .faq-accordion {
+            border-top: 1px solid #dee2e6;
+        }
+
+        .faq-accordion__item {
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .faq-accordion__question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 1rem 0.25rem;
+            background: none;
+            border: none;
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            color: inherit;
+            gap: 1rem;
+        }
+
+        .faq-accordion__question:hover {
+            color: #495057;
+        }
+
+        .faq-accordion__chevron {
+            flex-shrink: 0;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 8px solid currentColor;
+            transition: transform 0.25s ease;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .faq-accordion__chevron {
+                transition: none;
+            }
+        }
+
+        .faq-accordion__item.is-open .faq-accordion__chevron {
+            transform: rotate(180deg);
+        }
+
+        .faq-accordion__answer {
+            overflow: hidden;
+            height: 0;
+            transition: height 0.3s ease;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .faq-accordion__answer {
+                transition: none;
+            }
+        }
+
+        .faq-accordion__answer-inner {
+            padding: 0 0.25rem 1rem;
+            color: #495057;
+        }
+
+        .faq-accordion__answer-inner p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 576px) {
+            .faq-accordion__question {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+
+    <script>
+        (function () {
+            var accordion = document.getElementById('faq-accordion-{{ $name }}');
+            if (!accordion) return;
+
+            var items = Array.from(accordion.querySelectorAll('.faq-accordion__item'));
+
+            function closeItem(item) {
+                var answer = item.querySelector('.faq-accordion__answer');
+                var btn = item.querySelector('.faq-accordion__question');
+                answer.style.height = answer.scrollHeight + 'px';
+                // Reading offsetHeight forces a reflow so the browser commits the
+                // pixel height before we set it to 0, giving the transition a real start point
+                answer.offsetHeight; // eslint-disable-line no-unused-expressions
+                answer.style.height = '0';
+                item.classList.remove('is-open');
+                if (btn) btn.setAttribute('aria-expanded', 'false');
+            }
+
+            function openItem(item) {
+                var answer = item.querySelector('.faq-accordion__answer');
+                var btn = item.querySelector('.faq-accordion__question');
+                answer.style.height = answer.scrollHeight + 'px';
+                answer.addEventListener('transitionend', function onEnd() {
+                    answer.removeEventListener('transitionend', onEnd);
+                    // Let it reflow naturally so content can resize
+                    if (item.classList.contains('is-open')) {
+                        answer.style.height = 'auto';
+                    }
+                });
+                item.classList.add('is-open');
+                if (btn) btn.setAttribute('aria-expanded', 'true');
+            }
+
+            items.forEach(function (item) {
+                var btn = item.querySelector('.faq-accordion__question');
+                if (!btn) return;
+
+                btn.addEventListener('click', function () {
+                    var isOpen = item.classList.contains('is-open');
+
+                    // Close all open items
+                    items.forEach(function (other) {
+                        if (other.classList.contains('is-open')) closeItem(other);
+                    });
+
+                    if (!isOpen) openItem(item);
+                });
+            });
+        })();
+    </script>
+</section>
