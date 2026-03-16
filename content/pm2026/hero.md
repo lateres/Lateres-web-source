@@ -1,7 +1,7 @@
 +++
 fragment = "hero"
 #disabled = true
-date = "2026-03-06"
+date = "2026-03-16"
 weight = 50
 background = "dark" # can influence the text color
 #particles = true
@@ -10,7 +10,7 @@ title = "LaTeRes ry"
 subtitle = "LaTeRes ry"
 
 [header]
-  image = "propaganda.JPG"
+  image = "paikkaus.jpg"
 
 [asset]
   image = "logo.svg"

@@ -77,10 +77,6 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Liity"
   weight = 40
 
-[[menu.main]]
-  url = "/pm2026"
-  name = "ORUP SRA PM"
-  weight = 45
 
 [[menu.main]]
   url = "/jasenille"
@@ -96,6 +92,11 @@ lastmod = ["lastmod", ":git", "date"]
   url = "/blog"
   name = "Blogi"
   weight = 70
+
+[[menu.main]]
+  url = "/pm2026"
+  name = "ORUP SRA PM"
+  weight = 80
 
 [[menu.main]]
   url = "https://www.legioexterna.eu/home"
