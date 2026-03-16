@@ -1,6 +1,6 @@
 +++
 fragment = "stats-counter"
-weight = 120
+weight = 150
 
 [[items]]
   label = "Jäsentä"
