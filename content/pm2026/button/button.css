@@ -1,0 +1,65 @@
+
+
+.button {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px 100px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button span {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e7e6e6;
+    text-decoration: none;
+}
+
+.button:hover span {
+    transform: scale(1.15);
+}
+
+@property --deg {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+.button::before,
+.button::after {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    background: conic-gradient(
+        from var(--deg),#ec1111, #000000, #ec1111);
+    border-radius: inherit;
+    z-index: -1;
+    animation: autoRotate 4s linear infinite;
+}
+
+.button::after {
+    filter: blur(0.5rem);
+    opacity: 0.5;
+    z-index: -2;
+}
+
+
+@keyframes autoRotate {
+    from {
+        --deg: 0deg;
+    }
+    to {
+        --deg: 360deg;
+    }
+}
