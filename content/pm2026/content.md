@@ -13,11 +13,19 @@ title = ""
 
 ---
 
-Lappeenrannan Teekkarireserviläiset LaTeRes ry järjestää Opiskelijain Reserviupseeripiirin etelän yhdistyksille sovelletun reserviläisammunnan piirinmestaruuskilpailun. Kilpailu toimii samalla ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna.
+Lappeenrannan Teekkarireserviläiset LaTeRes ry järjestää Opiskelijain Reserviupseeripiirin etelän yhdistyksille sovelletun reserviläisammunnan piirinmestaruuskilpailun. Kilpailu toimii samalla ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Kilpailuun voi osallistua SRA-kurssin suorittaneet, mutta SM-karsintaan voivat osallistua ainoastaan tämän vuoden jäsenmaksun maksaneet jäsenet seuraavista kerhoista: ARU, JARU, LaTeRes, TaKoRU, TuKoREs.
 
-Kilpailu ammutaan **31.5.2026** Muukon Ampumaurheilukeskuksessa **OSOITE**, Lappeenrannassa. Kilpailussa ammutaan **5 rastia**.
+Sunnuntaina **31.5.2026** klo XX:XX alkaen Muukon Ampumaurheilukeskuksessa, **Muukonkankaantie 310** Lappeenranta.
 
-Kilpailu ammutaan voimassa olevien SRA-sääntöjen ja tuomariohjeiden sekä järjestäjän turvallisuusmääräysten mukaisesti.
+Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaikka.
+
+**Kilpailuluokat**: Avoin, Vakio, TST
+**Käytettävät asetyypit**: Kivääri, Pistooli
+**Rastit**: 5
+**Ampumaetäisyydet**: Kivääri max 100m ja pistooli max 25m
+**Laukausmäärät**: Kivääri XX ja pistooli XX
+
+ILMOITTAUDU TÄSTÄ
 
 ---
 
@@ -75,27 +83,16 @@ Kilpailijat ovat velvollisia tarkastamaan rekisteröimänsä sarjan ja yhdistyks
 
 ---
 
-## Sarjat
-
-Kilpailusarjat:
-
-- **Yleinen miehet**
-- **Yleinen naiset**
-
----
-
 ## SRA SM 2026 -karsinta (ORUP etelä)
 
-Tämä kilpailu toimii ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. **TARKENNA PAIKAT JA NIIDEN MYÖNTÄMINEN**
+Tämä kilpailu toimii ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Piirin yhteensä 8 edustuspaikasta etelän yhdistyksille on varattu 5. Edustuspaikat jaetaan
 
 ---
 
 ## Huolto ja palvelut
 
-- **Pysäköinti:** [ohje]
+- **Pysäköinti:** Pistooliradalla
 - **WC- ja huoltotilat:** käytettävissä rata-alueella
-- **Kahvio/muonitus:** [on/ei – täydennä]
-- Kilpailijoille ei ole tarjolla järjestettyä majoitusta. Kauempaa saapuville lähimmät majoitusvaihtoehdot: [täydennä tarvittaessa]
 
 ---
 
