@@ -24,6 +24,7 @@ Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaik
 **Rastit**: 5
 **Ampumaetäisyydet**: Kivääri max 100m ja pistooli max 25m
 **Laukausmäärät**: Kivääri XX ja pistooli XX
+**Kilpailumaksu**: 10 €
 
 ILMOITTAUDU TÄSTÄ
 
@@ -38,10 +39,6 @@ Kilpailussa ammuttavat pistemäärät ovat seuraavat:
 - **xxx pistettä** – Pistooli
 - **xxx pistettä** – Kivääri
 - **Yhteensä: xxx pistettä**
-
-Pisin ampumaetäisyys on 100 metriä.
-
-Tulokset julkaistaan **SSI**-palvelussa kilpailun päätyttyä.
 
 ---
 
@@ -59,7 +56,7 @@ Tulokset julkaistaan **SSI**-palvelussa kilpailun päätyttyä.
 
 ## Osallistumisoikeus ja -maksut
 
-Kilpailu on avoin **ORUPin etelän yhdistysten kilpailijoille**. Kilpailijalla tulee olla:
+Kilpailijalla tulee olla:
 
 - voimassa oleva **SRA-kortti**
 - voimassa oleva **ampumavakuutus** (RUL Plus, RES tai muu vastaava)
@@ -67,25 +64,9 @@ Kilpailu on avoin **ORUPin etelän yhdistysten kilpailijoille**. Kilpailijalla t
 
 Järjestäjä tarkastaa vakuutuksen sekä SRA-statuksen kilpailutoimistossa ilmoittautumisen yhteydessä.
 
-### Osallistumismaksu
+Kilpailuun voi osallistua, vaikka ei osallistu SM-paikkojen karsintaan
 
 Osallistumismaksu on **10 € / kilpailija** ja se maksetaan paikan päällä MobilePaylla tai käteisellä.
-
----
-
-## Ilmoittautuminen
-
-Kilpailijoiden ilmoittautuminen tapahtuu **SSI** kautta:
-
-**Ilmoittaudu kisaan tästä! – linkki tulossa**
-
-Kilpailijat ovat velvollisia tarkastamaan rekisteröimänsä sarjan ja yhdistyksen ilmoittautumisen yhteydessä kilpailukeskuksella.
-
----
-
-## SRA SM 2026 -karsinta (ORUP etelä)
-
-Tämä kilpailu toimii ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Piirin yhteensä 8 edustuspaikasta etelän yhdistyksille on varattu 5. Edustuspaikat jaetaan
 
 ---
 
@@ -102,9 +83,7 @@ Tämä kilpailu toimii ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailun
 - **LaTeRes Puheenjohtaja:** Roope Myller
 - **Sähköposti (yleiset kysymykset yms.):** hallitus(at)lateres.fi
 
----
-
-Jokainen kilpailija osallistuu omalla vastuullaan ja vastaa omasta vakuutusturvastaan. Kilpailussa voidaan kuvata, ja materiaalia voidaan julkaista LaTeResin ja ORUPin viestintäkanavissa.
+Kilpailun tiedot voivat päivittyä ja muutoksista tiedotetaan SSI:n kautta.
 
 ---
 
