@@ -10,7 +10,7 @@ title = "LaTeRes ry"
 subtitle = "LaTeRes ry"
 
 [header]
-  image = "paikkaus.jpg"
+  image = "pm2026.jpg"
 
 [asset]
   image = "logo.svg"
