@@ -13,7 +13,7 @@ title = ""
 
 ---
 
-Lappeenrannan Teekkarireserviläiset LaTeRes ry järjestää Opiskelijain Reserviupseeripiirin etelän yhdistyksille SRA PM-kilpailun. Kilpailu toimii samalla ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Kilpailuun voi osallistua SRA-kurssin suorittaneet, mutta SM-karsintaan voivat osallistua ainoastaan tämän vuoden jäsenmaksun maksaneet jäsenet seuraavista kerhoista: ARU, JARU, LaTeRes, TaKoRU, TuKoREs.
+Lappeenrannan Teekkarireserviläiset LaTeRes ry järjestää Opiskelijain Reserviupseeripiirin etelän yhdistyksille SRA PM-kilpailun. Kilpailu toimii samalla ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Kilpailuun voi osallistua kaikki SRA-kurssin suorittaneet, mutta SM-karsintaan voivat osallistua ainoastaan tämän vuoden jäsenmaksun maksaneet jäsenet seuraavista kerhoista: ARU, JARU, LaTeRes, TaKoRU, TuKoREs.
 
 Kilpailu järjestetään sunnuntaina **31.5.2026** klo 10:00 alkaen Muukon Ampumaurheilukeskuksessa, **Muukonkankaantie 310** Lappeenranta.
 
@@ -23,25 +23,11 @@ Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaik
 **Käytettävät asetyypit**: Kivääri, Pistooli<br>
 **Rastit**: 5<br>
 **Ampumaetäisyydet**: Kivääri max 100m ja pistooli max 25m<br>
-**Laukausmäärät**: Kivääri XX ja pistooli XX **-PÄIVITTYY-**<br>
-**Kilpailumaksu**: 10 €<br>
+**Alustavat laukausmäärät**: Kivääri 58 ja pistooli 52 <br>
+**Alustava pistemäärä**: 600 pistettä<br>
+**Kilpailumaksu**: 10 € (20€ piirin ulkopuolisille)<br>
 
 <br>
-
-<link rel="stylesheet" href="button/button.css">
-<a class="button" href="https://shootnscoreit.com/event/22/27900/"> <span>ILMOITTAUDU TÄSTÄ</span> </a>
-
----
-
-### Pistemäärät
-
-Kilpailussa ammuttavat pistemäärät ovat seuraavat:
-
-- **Kivääri:** xxx
-- **Pistooli:** xxx
-- **Yhteensä**: xxx
-
-**---PÄIVITTYY---**
 
 ---
 
@@ -57,19 +43,28 @@ Kilpailussa ammuttavat pistemäärät ovat seuraavat:
 
 ---
 
-### Osallistumisoikeus ja -maksut
+### Ilmoittautuminen, Osallistumisoikeus ja -maksut
 
 Kilpailijalla tulee olla:
 
-- voimassa oleva **SRA-kortti**
+- voimassa oleva **SRA ampujastatus**
 - voimassa oleva **ampumavakuutus** (RUL Plus, RES tai muu vastaava)
 - edustamansa yhdistyksen voimassa oleva **jäsenyys**
+
+PIIRIN AMPUJA! Valitse ilmoittautumisen yhteydessä edustamasi yhdistys, jotta ilmoittautuminen onnistuu.
 
 Järjestäjä tarkastaa vakuutuksen sekä SRA-statuksen kilpailutoimistossa ilmoittautumisen yhteydessä.
 
 Kilpailuun voi osallistua, vaikka ei osallistu SM-paikkojen karsintaan.
 
-Osallistumismaksu on **10 € / kilpailija** ja se maksetaan paikan päällä MobilePaylla tai käteisellä.
+Kilpailuun voi osallistua myös ORUPin etelän yhdistysten ulkopuoliset ampujat, mutta tällöin heidän tulee täyttää edellä mainitut vaatimukset ja heidän tulee maksaa ulkopuolisen osallistumismaksu. Ulkopuoliset ampujat eivät kuitenkaan voi osallistua SM-karsintaan ja heidän ilmoittautumisia otetaan vastaan XX.X. klo 12:00 alkaen jos kilpailussa on tilaa.
+
+Osallistumismaksu on piirin jäsenelle **10 €** ja ulkopuoliselle **20 €**. Maksu suoritetaan paikan päällä MobilePaylla tai käteisellä.
+
+Ilmoittautuminen tapahtuu SSI:n kautta, ja se avautuu 15.4.2026 klo 12:00. Ilmoittautuminen päättyy 20.5.2026 klo 23:59.
+
+<link rel="stylesheet" href="button/button.css">
+<a class="button" href="https://shootnscoreit.com/event/22/27900/"> <span>ILMOITTAUDU TÄSTÄ</span> </a>
 
 ---
 
@@ -85,12 +80,16 @@ SM-paikkoja jaetaan 5 paikkaa, joista yksi kiintiöpaikka jokaisen luokan (Avoin
 
 Kilpailuun on myös mahdollista osallistua ilman omaa kalustoa, sillä LaTeRes toimittaa paikalle tarvittaessa laina-kalustoa (aseet, pistoolivyö, näön- ja kuulonsuojaus). Laina-ase ampujista muodostetaan oma squadi kilpailuun. Jos tarvitset lainavälineistöä, laita meille viestiä <hallitus@lateres.fi>.
 
+HUOM! Tarjolla oleva laina kivääri ei ole soveltuva vakio-luokkaan, joten laina-aseella ampuvat kilpailijat kilpailevat avoimessa tai TST-luokassa. TST-luokassa ampuvat kilpailijat ovat itse vastuussa siitä, että heidän käyttämänsä varusteet täyttävät TST-luokan vaatimukset.
+
 ---
 
 ### Huolto ja palvelut
 
 - **Pysäköinti:** Pistooliradalla
 - **WC- ja huoltotilat:** käytettävissä rata-alueella
+- **Juomavesi:** pistooliradalla on juomavesipiste
+- **Ruokailu:** oma eväät tai lähialueen ravintolat
 
 ---
 
