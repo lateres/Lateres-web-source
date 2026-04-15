@@ -13,7 +13,7 @@ title = ""
 
 ---
 
-Lappeenrannan Teekkarireserviläiset LaTeRes ry järjestää Opiskelijain Reserviupseeripiirin etelän yhdistyksille SRA PM-kilpailun. Kilpailu toimii samalla ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Kilpailuun voi osallistua kaikki SRA-kurssin suorittaneet, mutta SM-karsintaan voivat osallistua ainoastaan tämän vuoden jäsenmaksun maksaneet jäsenet seuraavista kerhoista: ARU, JARU, LaTeRes, TaKoRU, TuKoREs.
+Lappeenrannan Teekkarireserviläiset LaTeRes ry järjestää Opiskelijain Reserviupseeripiirin etelän yhdistyksille SRA PM-kilpailun. Kilpailu toimii samalla ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Kilpailuun voi osallistua kaikki SRA-kurssin suorittaneet, mutta SM-karsintaan voivat osallistua ainoastaan tämän vuoden jäsenmaksun maksaneet jäsenet seuraavista kerhoista: ARU, JARU, LaTeRes, TaKoRU, TuKoREs ja LORes.
 
 Kilpailu ammutaan sunnuntaina **31.5.2026** klo 0900 alkaen Muukon Ampumaurheilukeskuksessa, **Muukonkankaantie 310** Lappeenranta.
 
