@@ -105,4 +105,7 @@ Kilpailun tiedot voivat päivittyä ja muutoksista tiedotetaan SSI:n kautta.
 
 ---
 
-Tervetuloa kilpailemaan Lappeenrantaan!
+### Yhteistyökumppanit
+
+<a href="https://www.shootingcenter.fi"><img src="SC-logo2025.jpeg" alt="Sako Shooting Center logo" title="Sako Shooting Center logo" width="700px"></a>
+
