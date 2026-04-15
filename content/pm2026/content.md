@@ -51,7 +51,7 @@ Kilpailupäivän aikataulu on alustavasti ja voi vielä muuttua alkamaan myöhem
 Kilpailijalla tulee olla:
 
 - voimassa oleva **SRA ampujastatus**
-- voimassa oleva **ampumavakuutus** (RUL Plus, RES tai muu vastaava)
+- voimassa oleva Reserviläisurheiluliiton hyväksymä ammunnan harjoittelu- ja kilpailutoiminnan kattava vakuutusturva
 - edustamansa yhdistyksen voimassa oleva **jäsenyys**
 
 PIIRIN AMPUJA! Valitse ilmoittautumisen yhteydessä edustamasi yhdistys, jotta ilmoittautuminen onnistuu.
@@ -83,7 +83,7 @@ SM-paikkoja jaetaan 5 paikkaa, joista yksi kiintiöpaikka jokaisen luokan (Avoin
 
 Kilpailuun on myös mahdollista osallistua ilman omaa kalustoa, sillä LaTeRes toimittaa paikalle tarvittaessa laina-kalustoa (aseet, pistoolivyö, näön- ja kuulonsuojaus). Laina-ase ampujista muodostetaan oma squadi kilpailuun. Jos tarvitset lainavälineistöä, laita meille viestiä <hallitus@lateres.fi>.
 
-HUOM! Tarjolla oleva laina kivääri ei ole soveltuva vakio-luokkaan, joten laina-aseella ampuvat kilpailijat kilpailevat avoimessa tai TST-luokassa. TST-luokassa ampuvat kilpailijat ovat itse vastuussa siitä, että heidän käyttämänsä varusteet täyttävät TST-luokan vaatimukset.
+HUOM! Tarjolla oleva lainakivääri ei ole soveltuva vakio-luokkaan, joten laina-aseella ampuvat kilpailijat kilpailevat avoimessa tai TST-luokassa. TST-luokassa ampuvat kilpailijat ovat itse vastuussa siitä, että heidän käyttämänsä varusteet täyttävät TST-luokan vaatimukset.
 
 ---
 
@@ -92,7 +92,7 @@ HUOM! Tarjolla oleva laina kivääri ei ole soveltuva vakio-luokkaan, joten lain
 - **Pysäköinti:** Pistooliradalla
 - **WC- ja huoltotilat:** käytettävissä rata-alueella
 - **Juomavesi:** pistooliradalla on juomavesipiste
-- **Ruokailu:** oma eväät tai lähialueen ravintolat
+- **Ruokailu:** omat eväät tai lähialueen ravintolat
 
 ---
 
