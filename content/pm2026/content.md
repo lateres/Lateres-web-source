@@ -15,7 +15,7 @@ title = ""
 
 Lappeenrannan Teekkarireserviläiset LaTeRes ry järjestää Opiskelijain Reserviupseeripiirin etelän yhdistyksille SRA PM-kilpailun. Kilpailu toimii samalla ORUPin etelän yhdistysten SRA SM 2026 -karsintakilpailuna. Kilpailuun voi osallistua kaikki SRA-kurssin suorittaneet, mutta SM-karsintaan voivat osallistua ainoastaan tämän vuoden jäsenmaksun maksaneet jäsenet seuraavista kerhoista: ARU, JARU, LaTeRes, TaKoRU, TuKoREs.
 
-Kilpailu järjestetään sunnuntaina **31.5.2026** klo 10:00 alkaen Muukon Ampumaurheilukeskuksessa, **Muukonkankaantie 310** Lappeenranta.
+Kilpailu ammutaan sunnuntaina **31.5.2026** klo 0900 alkaen Muukon Ampumaurheilukeskuksessa, **Muukonkankaantie 310** Lappeenranta.
 
 Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaikka.
 
@@ -23,8 +23,8 @@ Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaik
 **Käytettävät asetyypit**: Kivääri, Pistooli<br>
 **Rastit**: 5<br>
 **Ampumaetäisyydet**: Kivääri max 100m ja pistooli max 25m<br>
-**Alustavat laukausmäärät**: Kivääri 58 ja pistooli 52 <br>
-**Alustava pistemäärä**: 600 pistettä<br>
+**Alustavat laukausmäärät**: Kivääri 68 ja pistooli 52 <br>
+**Alustava pistemäärä**: 690 pistettä<br>
 **Kilpailumaksu**: 10 € (20€ piirin ulkopuolisille)<br>
 
 <br>
@@ -33,12 +33,15 @@ Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaik
 
 ### Aikataulu
 
+Kilpailupäivän aikataulu on alustavasti ja voi vielä muuttua alkamaan myöhemmin. Kilpailijoille ilmoitetaan lopullinen aikataulu SSI:n kautta ennen kilpailua.
+
 |                          |                                |
 | ------------------------ | ------------------------------ |
-| Ilmoittautuminen avautuu | 15.4.2026 klo 12:00            |
-| Ilmoittautuminen päättyy | 20.5.2026 klo 23:59            |
+| Ilmoittautuminen avautuu | 20.4.2026 klo 12:00            |
+| Ilmoittautuminen päättyy | 17.5.2026 klo 23:59            |
+| Squaditus alkaa          | 18.5.2026 klo 12:00            |
 | Kilpailutoimisto avautuu | klo 9:00                       |
-| Turvallisuuspuhuttelu    | klo 9:15 (pakollinen kaikille) |
+| Turvallisuuspuhuttelu    | klo 9:30 (pakollinen kaikille) |
 | Ensimmäinen laukaus      | klo 10:00                      |
 
 ---
@@ -57,11 +60,11 @@ Järjestäjä tarkastaa vakuutuksen sekä SRA-statuksen kilpailutoimistossa ilmo
 
 Kilpailuun voi osallistua, vaikka ei osallistu SM-paikkojen karsintaan.
 
-Kilpailuun voi osallistua myös ORUPin etelän yhdistysten ulkopuoliset ampujat, mutta tällöin heidän tulee täyttää edellä mainitut vaatimukset ja heidän tulee maksaa ulkopuolisen osallistumismaksu. Ulkopuoliset ampujat eivät kuitenkaan voi osallistua SM-karsintaan ja heidän ilmoittautumisia otetaan vastaan XX.X. klo 12:00 alkaen jos kilpailussa on tilaa.
+Kilpailuun voi osallistua myös ORUPin etelän yhdistysten ulkopuoliset ampujat, mutta tällöin heidän tulee täyttää edellä mainitut vaatimukset ja heidän tulee maksaa ulkopuolisen osallistumismaksu. Ulkopuoliset ampujat eivät kuitenkaan voi osallistua SM-karsintaan ja heidän ilmoittautumisia otetaan vastaan 10.5.2026 klo 18:00 alkaen jos kilpailussa on tilaa.
 
 Osallistumismaksu on piirin jäsenelle **10 €** ja ulkopuoliselle **20 €**. Maksu suoritetaan paikan päällä MobilePaylla tai käteisellä.
 
-Ilmoittautuminen tapahtuu SSI:n kautta, ja se avautuu 15.4.2026 klo 12:00. Ilmoittautuminen päättyy 20.5.2026 klo 23:59.
+Ilmoittautuminen tapahtuu SSI:n kautta, ja se avautuu 20.4.2026 klo 12:00. Ilmoittautuminen päättyy 17.5.2026 klo 23:59. 
 
 <link rel="stylesheet" href="button/button.css">
 <a class="button" href="https://shootnscoreit.com/event/22/27900/"> <span>ILMOITTAUDU TÄSTÄ</span> </a>
