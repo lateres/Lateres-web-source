@@ -33,16 +33,16 @@ Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaik
 
 ### Aikataulu
 
-Kilpailupäivän aikataulu on alustavasti ja voi vielä muuttua alkamaan myöhemmin. Kilpailijoille ilmoitetaan lopullinen aikataulu SSI:n kautta ennen kilpailua.
+Kilpailupäivän aikataulu on alustava ja voi vielä muuttua alkamaan myöhemmin. Kilpailijoille ilmoitetaan lopullinen aikataulu SSI:n kautta ennen kilpailua.
 
 |                          |                                |
 | ------------------------ | ------------------------------ |
-| Ilmoittautuminen avautuu | 20.4.2026 klo 12:00            |
-| Ilmoittautuminen päättyy | 17.5.2026 klo 23:59            |
-| Squaditus alkaa          | 18.5.2026 klo 12:00            |
-| Kilpailutoimisto avautuu | klo 9:00                       |
-| Turvallisuuspuhuttelu    | klo 9:30 (pakollinen kaikille) |
-| Ensimmäinen laukaus      | klo 10:00                      |
+| Ilmoittautuminen avautuu: | 20.4. klo 12:00            |
+| Ilmoittautuminen päättyy: | 17.5. klo 23:59            |
+| Squaditus alkaa:          | 18.5. klo 12:00            |
+| Kilpailutoimisto avautuu: | 31.5. klo 9:00                       |
+| Turvallisuuspuhuttelu:    | 31.5. klo 9:30 (pakollinen kaikille) |
+| Ensimmäinen laukaus:      | 31.5. klo 10:00                      |
 
 ---
 
