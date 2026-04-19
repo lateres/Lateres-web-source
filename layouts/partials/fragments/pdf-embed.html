@@ -1,0 +1,42 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $bg := $fragment.background | default "light" -}}
+{{- $title := $fragment.title | default "Document" -}}
+{{- $pdfSrc := $fragment.pdf | default "" -}}
+{{- $pdfURL := $pdfSrc | absURL -}}
+
+<section id="{{ $name }}">
+  <div class="overlay container-fluid bg-{{ $bg }}">
+    <div class="container py-0">
+      {{ if $pdfSrc }}
+        <div class="row align-items-center mb-3">
+          {{ if $fragment.title }}
+          <div class="col">
+            <h4 class="mb-0">{{ $title }}</h4>
+          </div>
+          {{ end }}
+          <div class="col-auto">
+            <a href="{{ $pdfURL }}" target="_blank" rel="noopener" class="btn btn-primary">
+              Avaa PDF
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="pdf-embed-wrapper w-100 d-none d-md-block" style="height: 80vh;">
+              <iframe
+                src="{{ $pdfURL }}"
+                width="100%"
+                height="100%"
+                title="{{ $title }}"
+                style="border: none;">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      {{ else }}
+        <p class="text-center text-muted">PDF-tiedostoa ei ole määritetty.</p>
+      {{ end }}
+    </div>
+  </div>
+</section>
