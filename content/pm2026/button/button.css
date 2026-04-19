@@ -63,3 +63,9 @@
         --deg: 360deg;
     }
 }
+
+@media (max-width: 576px) {
+    .button {
+        padding: 20px 40px;
+    }
+}

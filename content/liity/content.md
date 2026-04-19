@@ -29,7 +29,7 @@ Jos sinulla on kysyttävää tai tarvitset lisätietoja jäsenasioihin liittyen,
 
 #### RUL PLUS
 
-Jos sinua kiinnostaa osallistua LaTeResin ampumatoimintaan, suosittelemme erittäin vahvasti tutustumaan ja hankkimaan Reserviupseeriliiton tarjoaman RUL PLUS jäsenyyden. RUL PLUS jäsenyys maksaa 25 € tavallisen jäsenmaksun päälle. RUL PLUS jäsenyys sisältää tapaturma- ja vastuuvakuutuksen ammuntaa harrastavalle jäsenelle. 
+Jos sinua kiinnostaa osallistua LaTeResin ampumatoimintaan, suosittelemme erittäin vahvasti tutustumaan ja hankkimaan Reserviupseeriliiton tarjoaman RUL PLUS jäsenyyden. RUL PLUS jäsenyys maksaa 25 € tavallisen jäsenmaksun päälle. RUL PLUS jäsenyys sisältää tapaturma- ja vastuuvakuutuksen ammuntaa harrastavalle jäsenelle.
 
 LaTeRes järjestää viikottain ammuntoja ja joka toinen viikko järjestämme toiminnallista ammuntaa, johon vaadimme osallistujilta RUL PLUS jäsenyyden (tai muun vastaavan ampumaurheilun kattavan vakuutuksen). Lisätietoja [RUL PLUS:sta](https://www.rul.fi/jasenille/rul-plus/)
 
