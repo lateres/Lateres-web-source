@@ -54,7 +54,7 @@ Kilpailijalla tulee olla:
 - voimassa oleva Reserviläisurheiluliiton hyväksymä ammunnan harjoittelu- ja kilpailutoiminnan kattava vakuutusturva
 - edustamansa yhdistyksen voimassa oleva **jäsenyys**
 
-PIIRIN AMPUJA! Ilmoita ilmoittautumisen yhteydessä edustamasi yhdistys, jotta ilmoittautuminen onnistuu. Valitse lisäksi _Special1_ kategoria.
+ORUP AMPUJA! Ilmoita ilmoittautumisen yhteydessä edustamasi yhdistys, jotta ilmoittautuminen onnistuu. Valitse lisäksi _Special1_ kategoria.
 
 Järjestäjä tarkastaa vakuutuksen sekä SRA-statuksen kilpailutoimistossa ilmoittautumisen yhteydessä.
 
