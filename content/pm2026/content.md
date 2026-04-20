@@ -35,11 +35,11 @@ Ilmoittautuminen tapahtuu pistooliradalla ja samasta paikasta löytyy parkkipaik
 
 Kilpailupäivän aikataulu on alustava ja voi vielä muuttua alkamaan myöhemmin. Kilpailijoille ilmoitetaan lopullinen aikataulu SSI:n kautta ennen kilpailua.
 
-|                          |                                |
-| ------------------------ | ------------------------------ |
-| Ilmoittautuminen avautuu: | 20.4. klo 12:00            |
-| Ilmoittautuminen päättyy: | 17.5. klo 23:59            |
-| Squaditus alkaa:          | 18.5. klo 12:00            |
+|                           |                                      |
+| ------------------------- | ------------------------------------ |
+| Ilmoittautuminen avautuu: | 20.4. klo 12:00                      |
+| Ilmoittautuminen päättyy: | 17.5. klo 23:59                      |
+| Squaditus alkaa:          | 18.5. klo 12:00                      |
 | Kilpailutoimisto avautuu: | 31.5. klo 9:00                       |
 | Turvallisuuspuhuttelu:    | 31.5. klo 9:30 (pakollinen kaikille) |
 | Ensimmäinen laukaus:      | 31.5. klo 10:00                      |
@@ -64,7 +64,9 @@ Kilpailuun voi osallistua myös ORUPin etelän yhdistysten ulkopuoliset ampujat,
 
 Osallistumismaksu on piirin jäsenelle **10 €** ja ulkopuoliselle **20 €**. Maksu suoritetaan paikan päällä MobilePaylla tai käteisellä.
 
-Ilmoittautuminen tapahtuu SSI:n kautta, ja se avautuu 20.4.2026 klo 12:00. Ilmoittautuminen päättyy 17.5.2026 klo 23:59. 
+Ilmoittautuminen tapahtuu SSI:n kautta, ja se avautuu 20.4.2026 klo 12:00. Ilmoittautuminen päättyy 17.5.2026 klo 23:59.
+
+### **ORUP AMPUJA! VALITSE ILMOITTAUTUMISEN YHTEYDESSÄ _SPECIAL1_ KATEGORIA!**
 
 <link rel="stylesheet" href="button/button.css">
 <a class="button" href="https://shootnscoreit.com/event/22/27900/"> <span>ILMOITTAUDU TÄSTÄ</span> </a>
@@ -108,4 +110,3 @@ Kilpailun tiedot voivat päivittyä ja muutoksista tiedotetaan SSI:n kautta.
 ### Yhteistyökumppanit
 
 <a href="https://www.shootingcenter.fi"><img src="SC-logo2025.jpeg" alt="Sako Shooting Center logo" title="Sako Shooting Center logo" width="700px"></a>
-
