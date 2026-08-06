@@ -9,6 +9,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .button span {
