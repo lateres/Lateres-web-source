@@ -1,0 +1,42 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $page_scratch := .page_scratch -}}
+{{- $bg := $fragment.background | default "light" -}}
+{{- $title := $fragment.title | default "YouTube-videoiden suostumus" -}}
+
+{{/* Registered once per page; js.html dedupes by name. */}}
+{{- $page_scratch.Add "js" (dict "file" "lateres-youtube-consent.js" "name" "lateres-youtube-consent" "async" false) -}}
+
+<section id="{{ $name }}">
+  <div class="overlay container-fluid bg-{{ $bg }}">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col">
+          <h4>{{ $title }}</h4>
+
+          <p data-youtube-consent-when="granted" hidden>
+            Olet antanut suostumuksen YouTube-videoiden näyttämiseen tällä sivustolla.
+            <br>
+            <button type="button" class="btn btn-primary mt-2" data-youtube-consent-deny>
+              Peruuta suostumus
+            </button>
+          </p>
+
+          <p data-youtube-consent-when="denied undecided" hidden>
+            Et ole antanut suostumusta YouTube-videoiden näyttämiseen. Videot näytetään
+            paikanvaraajana, eikä selaimesi ota yhteyttä Googleen.
+            <br>
+            <button type="button" class="btn btn-primary mt-2" data-youtube-consent-grant>
+              Salli YouTube-videot
+            </button>
+          </p>
+
+          <noscript>
+            <p>Suostumuksen hallinta vaatii JavaScriptin. Voit myös tyhjentää selaimesi
+            sivustokohtaiset tiedot, jolloin valinta poistuu.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

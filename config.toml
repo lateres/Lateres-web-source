@@ -104,7 +104,6 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Instagram"
   weight = 10
 
-
 [[menu.footer]]
   url = "https://www.rul.fi/orup/"
   name = "ORUP"
@@ -114,6 +113,11 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://www.rul.fi/"
   name = "RUL"
   weight = 50   
+
+[[menu.footer]]
+  url = "/tietosuoja"
+  name = "Tietosuoja"
+  weight = 60
 
 [[menu.footer_social]]
   weight = 30
