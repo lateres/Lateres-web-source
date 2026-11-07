@@ -1,7 +1,10 @@
-{{- $self := .self -}} {{- $bg := $self.Scratch.Get "bg" -}} {{- $fragment :=
-.self.Params -}} {{- partial "helpers/container.html" (dict "start" true
-"in_slot" .in_slot "bg" $bg "id" .id "Params" .Params) -}} {{- partial
-"helpers/section-header.html" (dict "self" $self "bg" $bg "params" .Params) }}
+{{- $self := .self -}}
+{{- $bg := $self.Scratch.Get "bg" -}}
+{{- $fragment := .self.Params -}}
+
+{{- partial "helpers/container.html" (dict "start" true "in_slot" .in_slot "bg" $bg "id" .id "Params" .Params) -}}
+{{- partial "helpers/section-header.html" (dict "self" $self "bg" $bg "params" .Params) }}
+
 {{- with $fragment.members }}
 <div class="hallitus-board">
   {{- range . }}
@@ -11,7 +14,9 @@
   </div>
   {{- end }}
 </div>
-{{- end }} {{- with $fragment.jaokset }}
+{{- end }}
+
+{{- with $fragment.jaokset }}
 <div class="hallitus-jaokset">
   {{- range . }}
   <article class="hallitus-jaos">
@@ -21,7 +26,8 @@
       <span class="hallitus-label">{{ .role }}</span>
       <span class="hallitus-jaos-lead-name">{{ .name }}</span>
     </div>
-    {{- end }} {{- with .roles }}
+    {{- end }}
+    {{- with .roles }}
     <dl class="hallitus-roles">
       {{- range . }}
       <div>
@@ -30,7 +36,8 @@
       </div>
       {{- end }}
     </dl>
-    {{- end }} {{- with .group }}
+    {{- end }}
+    {{- with .group }}
     <div>
       <span class="hallitus-label">{{ .title }}</span>
       <ul class="hallitus-names">
@@ -43,8 +50,10 @@
   </article>
   {{- end }}
 </div>
-{{- end }} {{- if not (.page_scratch.Get "hallitus-cards-css") }} {{-
-.page_scratch.Set "hallitus-cards-css" true }}
+{{- end }}
+
+{{- if not (.page_scratch.Get "hallitus-cards-css") }}
+{{- .page_scratch.Set "hallitus-cards-css" true }}
 <style>
   .hallitus-board,
   .hallitus-jaokset {
@@ -188,5 +197,5 @@
     }
   }
 </style>
-{{- end }} {{- partial "helpers/container.html" (dict "end" true "in_slot"
-.in_slot) -}}
+{{- end }}
+{{- partial "helpers/container.html" (dict "end" true "in_slot" .in_slot) -}}
