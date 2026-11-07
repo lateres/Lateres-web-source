@@ -11,15 +11,18 @@ title = ""
 
 #### JÄSENEKSI
 
-Lateresin jäseneksi voi liittyä sotilasarvosta, suoritetusta asevelvollisuudesta tai haalareiden väristä riippumatta. Vaikka nimessä lukee Teekkari niin toiminnassamme on mukana myös muita opiskelijoita. Jäseneksi liitytään täyttämällä Suomen Reserviupseeriliiton (RUL) lomake. **Muista valita yhdistykseksi Lappeenrannan Teekkarireserviläiset LATERES RY!**
-
+Lateresin jäseneksi voi liittyä sotilasarvosta, suoritetusta asevelvollisuudesta tai haalareiden väristä riippumatta. Vaikka nimessä lukee Teekkari niin toiminnassamme on mukana myös muita opiskelijoita. Jäseneksi liitytään täyttämällä Suomen Reserviupseeriliiton (RUL) lomake.
 
 <link rel="stylesheet" href="button/button.css">
-<a class="button" href="https://maanpuolustusrekisteri.fi/verkkolomakkeet/Jasenhakemus/Yhdistys?organisaatio=15458835"> <span>LIITY TÄSTÄ!</span> </a>
+<div class="liity-card">
+  <div class="liity-facts">
+    <div class="liity-fact"><span class="liity-label">Jäsenmaksu</span><span class="liity-value"><span class="liity-price">23 €</span><br>maksetaan RUL:lle</span></div>
+    <div class="liity-fact"><span class="liity-label">Muista</span><span class="liity-value"><strong>Valitse yhdistykseksi Lappeenrannan Teekkarireserviläiset LATERES RY!</strong></span></div>
+  </div>
+  <a class="liity-button" href="https://maanpuolustusrekisteri.fi/verkkolomakkeet/Jasenhakemus/Yhdistys?organisaatio=15458835" target="_blank" rel="noopener">Liity tästä <span class="liity-arrow" aria-hidden="true">→</span></a>
+</div>
 
-<br>
-
-Jäsenmaksu on 23 € ja se maksetaan RUL:lle. LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta RUL:in jäseniä ja saavat RUL:n jäsenedut sotilasarvosta huolimatta. Lisätietoa [ORUP:sta](https://www.rul.fi/orup/)
+LaTeResin jäsenet ovat Opiskelijain Reserviupseeripiirin (ORUP) kautta RUL:in jäseniä ja saavat RUL:n jäsenedut sotilasarvosta huolimatta. Lisätietoa [ORUP:sta](https://www.rul.fi/orup/)
 
 Jos sinulla on kysyttävää tai tarvitset lisätietoja jäsenasioihin liittyen, ota yhteyttä suoraan yhdistyksen sihteeriin:
 

@@ -1,69 +1,103 @@
-
-
-.button {
-    position: relative;
-    background-color: #ffffff;
-    padding: 20px 100px;
-    border-radius: 12px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    max-width: 100%;
-    box-sizing: border-box;
-    margin: 0 auto;
+.liity-card {
+  display: grid;
+  gap: 16px;
+  margin: 28px 0;
+  padding: 24px;
+  background-color: #f7f7f8;
+  border: 1px solid #d4d6da;
+  border-radius: 6px;
 }
 
-.button span {
-    color: #000000;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-
-    transition: all 0.3s ease;
+.liity-facts {
+  display: grid;
+  gap: 10px;
 }
 
-.button:hover {
-    background-color: #e7e6e6;
-    text-decoration: none;
+.liity-fact {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 4px 12px;
 }
 
-.button:hover span {
-    transform: scale(1.15);
+.liity-label {
+  padding-top: 2px;
+  color: #5d6168;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-@property --deg {
-    syntax: "<angle>";
-    inherits: true;
-    initial-value: 0deg;
+.liity-value {
+  min-width: 0;
 }
 
-.button::before,
-.button::after {
-    content: "";
-    position: absolute;
-    inset: -4px;
-    background: conic-gradient(
-        from var(--deg),#ec1111, #000000, #ec1111);
-    border-radius: inherit;
-    z-index: -1;
-    animation: autoRotate 4s linear infinite;
+.liity-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
-.button::after {
-    filter: blur(0.5rem);
-    opacity: 0.5;
-    z-index: -2;
+.liity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+  padding: 16px 40px;
+  background-color: #ec1111;
+  color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 #b80d0d;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
+.liity-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
 
-@keyframes autoRotate {
-    from {
-        --deg: 0deg;
-    }
-    to {
-        --deg: 360deg;
-    }
+.liity-button:hover,
+.liity-button:focus {
+  background-color: #b80d0d;
+  color: #ffffff;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(184, 13, 13, 0.3);
+}
+
+.liity-button:hover .liity-arrow {
+  transform: translateX(4px);
+}
+
+.liity-button:focus-visible {
+  outline: 3px solid #212529;
+  outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+  .liity-fact {
+    grid-template-columns: 1fr;
+  }
+
+  .liity-button {
+    width: 100%;
+    padding: 16px 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .liity-button,
+  .liity-arrow {
+    transition: none;
+  }
 }
