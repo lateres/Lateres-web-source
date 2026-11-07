@@ -46,33 +46,40 @@
   max-width: 100%;
   box-sizing: border-box;
   margin-top: 4px;
-  padding: 16px 40px;
-  background-color: #ec1111;
-  color: #ffffff;
-  border-radius: 6px;
-  box-shadow: 0 2px 0 #b80d0d;
+  padding: 14px 36px;
+  background-color: #ffffff;
+  color: #212529;
+  border: 2px solid #212529;
+  border-radius: 10px;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   transition:
     background-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .liity-arrow {
   display: inline-block;
-  transition: transform 0.2s ease;
+  color: #ec1111;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
 }
 
 .liity-button:hover,
 .liity-button:focus {
-  background-color: #b80d0d;
+  background-color: #ec1111;
+  border-color: #ec1111;
   color: #ffffff;
   text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(184, 13, 13, 0.3);
+}
+
+.liity-button:hover .liity-arrow,
+.liity-button:focus .liity-arrow {
+  color: #ffffff;
 }
 
 .liity-button:hover .liity-arrow {
@@ -91,7 +98,7 @@
 
   .liity-button {
     width: 100%;
-    padding: 16px 24px;
+    padding: 14px 24px;
   }
 }
 
