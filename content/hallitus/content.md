@@ -1,98 +1,56 @@
 +++
-fragment = "table"
+fragment = "hallitus-cards"
 #disabled = false
-date = "2017-10-10"
+date = "2026-11-07"
 weight = 100
-#background = "secondary"
 
 title = "Vuoden 2026 Hallitus"
-subtitle= "Yhdeydenotto sähköpostilla hallitus(at)lateres.fi"
-#title_align = "left" # Default is center, can be left, right or center
+subtitle= "Yhteydenotto sähköpostilla hallitus(at)lateres.fi"
 
-[header]
-[[header.values]]
-text = "Nimi"
-hide_on_mobile = false
+# lead = true makes the card bigger and puts it on the first row
+[[members]]
+name = "Roope Myller"
+role = "Puheenjohtaja"
+lead = true
 
-[[header.values]]
-text = "Tehtävä"
-hide_on_mobile = false
+[[members]]
+name = "Aleksis Päivärinta"
+role = "Varapuheenjohtaja"
+lead = true
 
-[[rows]]
-[[rows.values]]
-header = "Roope Myller"
+[[members]]
+name = "Väinö Marttinen"
+role = "Rahastonhoitaja"
 
-[[rows.values]]
-header = "Puheenjohtaja"
+[[members]]
+name = "Julius Airas"
+role = "Sihteeri"
 
-[[rows]]
-[[rows.values]]
-header = "Aleksis Päivärinta"
+[[members]]
+name = "Einojuhani Kostiainen"
+role = "Tapahtumavastaava"
 
-[[rows.values]]
-header = "Varapuheenjohtaja"
+[[members]]
+name = "Lauri Jokinen"
+role = "Ammuntavastaava"
 
-[[rows]]
-[[rows.values]]
-header = "Väinö Marttinen"
+[[members]]
+name = "Vilho Tanner"
+role = "Perinnevastaava"
 
-[[rows.values]]
-header = "Rahastonhoitaja"
+[[members]]
+name = "Manu Heiskanen"
+role = "Yhteysvastaava"
 
-[[rows]]
-[[rows.values]]
-header = "Julius Airas"
+[[members]]
+name = "Henna Häivälä"
+role = "Viestintävastaava"
 
-[[rows.values]]
-header = "Sihteeri"
+[[members]]
+name = "Otso Suuronen"
+role = "Hallituksen jäsen"
 
-[[rows]]
-[[rows.values]]
-header = "Einojuhani Kostiainen"
-
-[[rows.values]]
-header = "Tapahtumavastaava"
-
-[[rows]]
-[[rows.values]]
-header = "Lauri Jokinen"
-
-[[rows.values]]
-header = "Ammuntavastaava"
-
-[[rows]]
-[[rows.values]]
-header = "Vilho Tanner"
-
-[[rows.values]]
-header = "Perinnevastaava"
-
-[[rows]]
-[[rows.values]]
-header = "Manu Heiskanen"
-
-[[rows.values]]
-header = "Yhteysvastaava"
-
-[[rows]]
-[[rows.values]]
-header = "Henna Häivälä"
-
-[[rows.values]]
-header = "Viestintävastaava"
-
-[[rows]]
-[[rows.values]]
-header = "Otso Suuronen"
-
-[[rows.values]]
-header = "Hallituksen jäsen"
-
-[[rows]]
-[[rows.values]]
-header = "Antti Viinanen"
-
-[[rows.values]]
-header = "Hallituksen jäsen"
-
+[[members]]
+name = "Antti Viinanen"
+role = "Hallituksen jäsen"
 +++

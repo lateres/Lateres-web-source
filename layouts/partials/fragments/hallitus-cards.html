@@ -1,0 +1,192 @@
+{{- $self := .self -}} {{- $bg := $self.Scratch.Get "bg" -}} {{- $fragment :=
+.self.Params -}} {{- partial "helpers/container.html" (dict "start" true
+"in_slot" .in_slot "bg" $bg "id" .id "Params" .Params) -}} {{- partial
+"helpers/section-header.html" (dict "self" $self "bg" $bg "params" .Params) }}
+{{- with $fragment.members }}
+<div class="hallitus-board">
+  {{- range . }}
+  <div class="hallitus-person {{- if .lead }} hallitus-person--lead{{ end }}">
+    <span class="hallitus-role">{{ .role }}</span>
+    <span class="hallitus-name">{{ .name }}</span>
+  </div>
+  {{- end }}
+</div>
+{{- end }} {{- with $fragment.jaokset }}
+<div class="hallitus-jaokset">
+  {{- range . }}
+  <article class="hallitus-jaos">
+    <h3>{{ .name }}</h3>
+    {{- with .lead }}
+    <div class="hallitus-jaos-lead">
+      <span class="hallitus-label">{{ .role }}</span>
+      <span class="hallitus-jaos-lead-name">{{ .name }}</span>
+    </div>
+    {{- end }} {{- with .roles }}
+    <dl class="hallitus-roles">
+      {{- range . }}
+      <div>
+        <dt>{{ .role }}</dt>
+        <dd>{{ .name }}</dd>
+      </div>
+      {{- end }}
+    </dl>
+    {{- end }} {{- with .group }}
+    <div>
+      <span class="hallitus-label">{{ .title }}</span>
+      <ul class="hallitus-names">
+        {{- range .names }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </article>
+  {{- end }}
+</div>
+{{- end }} {{- if not (.page_scratch.Get "hallitus-cards-css") }} {{-
+.page_scratch.Set "hallitus-cards-css" true }}
+<style>
+  .hallitus-board,
+  .hallitus-jaokset {
+    display: grid;
+    max-width: 900px;
+    margin: 2rem auto 0;
+    text-align: left;
+  }
+
+  /* Six tracks: the two leads take half a row each, everyone else a third. */
+  .hallitus-board {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .hallitus-person {
+    grid-column: span 2;
+    display: grid;
+    gap: 2px;
+    align-content: start;
+    min-width: 0;
+    padding: 20px 22px;
+    border: 1px solid #d4d6da;
+    border-radius: 10px;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .hallitus-person:hover {
+    border-color: #ec1111;
+    box-shadow: 0 4px 14px rgba(33, 37, 41, 0.08);
+  }
+
+  .hallitus-person--lead {
+    grid-column: span 3;
+    border-width: 2px;
+    border-color: #212529;
+  }
+
+  .hallitus-role {
+    color: #b80d0d;
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .hallitus-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .hallitus-person--lead .hallitus-name {
+    font-size: 1.4rem;
+  }
+
+  .hallitus-jaokset {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+  }
+
+  .hallitus-jaos {
+    display: grid;
+    gap: 14px;
+    min-width: 0;
+    padding: 24px;
+    border: 1px solid #d4d6da;
+    border-radius: 10px;
+  }
+
+  .hallitus-jaos h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ec1111;
+    font-size: 1.2rem;
+  }
+
+  .hallitus-jaos-lead {
+    display: grid;
+    gap: 2px;
+  }
+
+  .hallitus-jaos-lead-name {
+    font-weight: 700;
+  }
+
+  .hallitus-label,
+  .hallitus-roles dt {
+    color: #5d6168;
+    font-size: 0.72rem;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .hallitus-roles {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .hallitus-roles dd {
+    margin: 0;
+  }
+
+  .hallitus-names {
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+    columns: 2;
+    column-gap: 20px;
+  }
+
+  .hallitus-names li {
+    padding: 1px 0;
+    break-inside: avoid;
+  }
+
+  @media (max-width: 720px) {
+    .hallitus-person,
+    .hallitus-person--lead {
+      grid-column: span 3;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .hallitus-person,
+    .hallitus-person--lead {
+      grid-column: 1 / -1;
+    }
+
+    .hallitus-jaokset {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hallitus-person {
+      transition: none;
+    }
+  }
+</style>
+{{- end }} {{- partial "helpers/container.html" (dict "end" true "in_slot"
+.in_slot) -}}
